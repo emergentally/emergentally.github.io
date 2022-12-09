@@ -18,7 +18,7 @@ export default {
       { hid: 'twitter:description', name: 'twitter:description', content: 'Data-driven development for emerging economies' },
       { hid: 'twitter:image', name: 'twitter:image', content: 'https://emergentally.com/emergentally-logo.png' },
       { hid: 'og:image', name: 'og:image', content: 'https://emergentally.com/emergentally-logo.png' },
-      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Emergentally' }
+      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Emergentally' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
