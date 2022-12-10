@@ -128,6 +128,12 @@ img {
   box-shadow: 4px 4px 10px #000000;
   margin: 0px 10px 10px 10px;
 }
+
+@media (max-width: 1200px) {
+  img {
+    width: 200px;
+  }
+}
 .header-container {
   width: 100%;
 }
@@ -156,6 +162,12 @@ img {
   text-shadow: 0px 0px 20px #444444;
   font-size: 7em;
   letter-spacing: -5px;
+}
+@media (max-width: 1200px) {
+  .jumbotron h1 {
+    font-size: 3em;
+    letter-spacing: -1px;
+  }
 }
 h1 {
   font-family: tangoSans;
@@ -199,6 +211,14 @@ h1 {
 .page-body p {
   font-size: 1.25rem;
   font-weight: 300;
+}
+@media (max-width: 1200px) {
+  .page-body h1 {
+    font-size: 3em;
+  }
+  .page-body h2 {
+    font-size: 2em;
+  }
 }
 .page-body b {
   background-color: #448822;
