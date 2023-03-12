@@ -20,9 +20,6 @@ export default {
       { hid: 'og:image', name: 'og:image', content: 'https://emergentally.com/emergentally-logo.png' },
       { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Emergentally' },
       { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -47,7 +44,30 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-i18n',
+    '@nuxt/content',
   ],
+
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en-GB',
+        file: 'en.json'
+      },
+      {
+        code: 'fr',
+        iso: 'fr-FR',
+        file: 'fr.json'
+      }
+    ],
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'en'
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
@@ -57,5 +77,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  router: {
+    trailingSlash: true
   }
 }
