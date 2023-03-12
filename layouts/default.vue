@@ -1,14 +1,43 @@
 <template>
   <div>
-    <b-row>
-      <b-col md="12">
-        <img
-          src="/liberia-project-dashboard.png"
-          width="350px"
-          align="right" />
-        <nuxt-content :document="page" />
-      </b-col>
-    </b-row>
+    <b-container fluid class="p-0">
+      <div class="header">
+        <b-container class="header-container" style="vertical-align: bottom;">
+          <b-jumbotron
+            header="Emergentally."
+            lead="Data-driven development for emerging economies">
+          </b-jumbotron>
+        </b-container>
+      </div>
+      <b-navbar toggleable="lg" type="light" variant="light" class="primary-navbar">
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-collapse id="nav-collapse" is-nav>
+          <b-container>
+          <b-navbar-nav>
+              <b-nav-item
+                :to="localePath({path: menuItem.value})"
+                class="ml-lg-4 mr-lg-4"
+                v-for="menuItem in $t('menuItems')"
+                v-bind:key="menuItem.value">{{ menuItem.text }}</b-nav-item>
+            </b-navbar-nav>
+            <b-navbar-nav class="ml-lg-auto">
+              <b-nav-item-dropdown :text="$t('selectLanguage')" right>
+                <b-dropdown-item
+                  v-for="locale in $t('languageOptions')"
+                  v-bind:key="locale.value"
+                  :to="switchLocalePath(locale.value)"
+                  :active="$i18n.locale == locale.value">
+                  {{ locale.text }}
+                </b-dropdown-item>
+              </b-nav-item-dropdown>
+            </b-navbar-nav>
+          </b-container>
+        </b-collapse>
+      </b-navbar>
+      <b-container class="p-5 page-body">
+        <Nuxt />
+      </b-container>
+    </b-container>
   </div>
 </template>
 <style>
@@ -132,18 +161,12 @@ h1 {
   margin: 0px;
   color: #fff;
 }
+.alert-success {
+  color: #ffffff;
+  background-color: #448822;
+}
 </style>
 <script>
 export default {
-  name: 'IndexPage',
-  async asyncData({ $content, params, app, error }) {
-    const page = await $content(app.i18n.locale, 'index')
-      .fetch()
-      .catch(() => {
-        error({ statusCode: 404, message: 'Page not found' })
-      })
-    if (page == undefined) { return page }
-    return { page }
-  },
 }
 </script>

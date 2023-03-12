@@ -1,0 +1,28 @@
+{
+  "title": "Emergentally",
+  "languageOptions": [
+    {
+      "value": "en",
+      "text": "EN"
+    },
+    {
+      "value": "fr",
+      "text": "FR"
+    }
+  ],
+  "selectLanguage": "Language",
+  "menuItems": [
+    {
+      "value": "/",
+      "text": "What we do"
+    },
+    {
+      "value": "/who-we-are/",
+      "text": "Who we are"
+    },
+    {
+      "value": "/get-in-touch/",
+      "text": "Get in touch"
+    }
+  ]
+}
