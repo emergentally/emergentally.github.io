@@ -23,5 +23,5 @@ Pour les projets financés par des partenaires du développement, cette intégra
 <b-alert show variant="success" class="p-4">
 <h3>Démonstration gratuite &ndash; avec vos propres données (optionnel)</h3>
 <p>Prenez contact avec nous pour organiser une démonstration gratuite. Si vous le souhaitez, nous pouvons vous démontrer comment vos données seraient visualisées dans le système.</p>
-<b-btn variant="light" :to="{'path': '/fr/get-in-touch/'}">Inscrivez-vous à une démonstration gratuite &raquo;</b-btn>
+<b-btn variant="light" :to="{'path': '/fr/get-in-touch/'}">Inscrivez-vous &raquo;</b-btn>
 </b-alert>
