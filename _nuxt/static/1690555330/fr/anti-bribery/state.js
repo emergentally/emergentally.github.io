@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1690555330",layout:"default",error:{statusCode:404,message:"Page not found"},serverRendered:false,routePath:"\u002Ffr\u002Fanti-bribery\u002F",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:null},content:{dbHash:"596adda3"}}};
