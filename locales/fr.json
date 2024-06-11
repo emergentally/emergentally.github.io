@@ -11,18 +11,18 @@
     }
   ],
   "selectLanguage": "Langue",
-  "menuItems": [
-    {
+  "menuItems": {
+    "whatWeDo": {
       "value": "/",
       "text": "Aperçu"
     },
-    {
+    "whoWeAre": {
       "value": "/who-we-are/",
       "text": "À propos"
     },
-    {
+    "getInTouch": {
       "value": "/get-in-touch/",
       "text": "Contact"
     }
-  ]
+  }
 }

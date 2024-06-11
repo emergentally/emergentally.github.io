@@ -1,28 +1,18 @@
 {
   "title": "Emergentally",
-  "languageOptions": [
-    {
-      "value": "en",
-      "text": "EN"
-    },
-    {
-      "value": "fr",
-      "text": "FR"
-    }
-  ],
   "selectLanguage": "Language",
-  "menuItems": [
-    {
+  "menuItems": {
+    "whatWeDo": {
       "value": "/",
       "text": "What we do"
     },
-    {
+    "whoWeAre": {
       "value": "/who-we-are/",
       "text": "Who we are"
     },
-    {
+    "getInTouch": {
       "value": "/get-in-touch/",
       "text": "Get in touch"
     }
-  ]
+  }
 }
