@@ -1,24 +1,25 @@
 {
-  "name": "emergentally",
-  "version": "1.0.0",
+  "name": "Emergentally Website",
+  "version": "2.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "NODE_OPTIONS=--openssl-legacy-provider nuxt generate"
+    "generate": "nuxt generate",
+    "prepare": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/content": "^1.15.1",
-    "@nuxtjs/axios": "^5.13.6",
-    "bootstrap": "^4.6.1",
-    "bootstrap-vue": "^2.21.2",
-    "core-js": "^3.19.3",
-    "nuxt": "^2.15.8",
-    "nuxt-i18n": "^6.28.1",
-    "vue": "^2.6.14",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "@bootstrap-vue-next/nuxt": "^0.16.1",
+    "@nuxt/content": "^2.12.1",
+    "@nuxtjs/i18n": "^8.3.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue-next": "^0.16.6",
+    "nuxt": "^3.8.1",
+    "vue": "^3.4.23"
+  },
+  "devDependencies": {
+    "sitemap": "^8.0.0"
   }
 }
