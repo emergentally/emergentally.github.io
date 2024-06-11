@@ -1,4 +1,6 @@
 *.sublime-*
+.editorconfig
+.output
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
