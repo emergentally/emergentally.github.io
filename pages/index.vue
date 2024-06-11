@@ -6,7 +6,16 @@
           src="/liberia-project-dashboard.png"
           width="350px"
           align="right" />
-        <nuxt-content :document="page" />
+        <ContentQuery :path="localizedPath($route.path)" find="one" v-slot="{ data }">
+          <template v-if="data?.title">
+            <Head>
+              <Title>{{ data.title }} | {{config.public.title}}</Title>
+              <Meta name="twitter:title" :content="`${data.title} | ${config.public.title}`" />
+              <Meta name="og:title" :content="`${data.title} | ${config.public.title}`" />
+            </Head>
+            <ContentRenderer :value="data" />
+          </template>
+        </ContentQuery>
       </b-col>
     </b-row>
   </div>
@@ -30,7 +39,7 @@ img {
 }
 @font-face {
   font-family: tangoSans;
-  src: url(~/static/tangosans/TangoSans.ttf);
+  src: url(/tangosans/TangoSans.ttf);
 }
 .primary-navbar {
   border-bottom: 1px solid #dddddd;
@@ -133,17 +142,17 @@ h1 {
   color: #fff;
 }
 </style>
-<script>
-export default {
-  name: 'IndexPage',
-  async asyncData({ $content, params, app, error }) {
-    const page = await $content(app.i18n.locale, 'index')
-      .fetch()
-      .catch(() => {
-        error({ statusCode: 404, message: 'Page not found' })
-      })
-    if (page == undefined) { return page }
-    return { page }
-  },
+<script setup>
+const i18n = useI18n();
+function localizedPath(path) {
+  // Use this.$i18n.locale to get the current locale
+  const locale = i18n.locale.value;
+  // Add the locale to the path
+  if (path.includes(locale)) {
+    return path
+  } else {
+    return `/${locale}${path}`;
+  }
 }
+const config = useRuntimeConfig()
 </script>
