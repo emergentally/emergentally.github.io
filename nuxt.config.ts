@@ -1,4 +1,5 @@
-export default {
+export default defineNuxtConfig({
+  components: true,
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -31,55 +32,64 @@ export default {
   plugins: [
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
-
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    'nuxt-i18n',
-    '@nuxt/content',
+    "@nuxt/content",
+    "@nuxtjs/i18n",
+    "@bootstrap-vue-next/nuxt",
   ],
 
+  content: {
+    api: {
+      baseURL: '/content_api'
+    },
+    markdown: {
+      anchorLinks: {
+        depth: 2
+      }
+    }
+  },
+  css: [
+    "bootstrap/dist/css/bootstrap.min.css",
+    "bootstrap-vue-next/dist/bootstrap-vue-next.css"
+  ],
 
   i18n: {
     defaultLocale: 'en',
+    lazy: true,
+    strategy: "prefix_except_default",
+    vueI18nLoader: true,
+    fallbackLocale: "en",
+    langDir: "locales",
     locales: [
       {
         code: 'en',
         iso: 'en-GB',
-        file: 'en.json'
+        file: 'en.json',
+        name: 'English'
       },
       {
         code: 'fr',
         iso: 'fr-FR',
-        file: 'fr.json'
+        file: 'fr.json',
+        name: 'Français'
       }
     ],
-    langDir: 'locales/',
-    vueI18n: {
-      fallbackLocale: 'en'
-    }
-  },
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    langDir: 'locales/'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 
-  router: {
-    trailingSlash: true
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml', '/who-we-are', '/get-in-touch',
+        '/fr/who-we-are', '/fr/get-in-touch']
+    }
   }
-}
+})
