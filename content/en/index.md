@@ -18,8 +18,8 @@ For donor-financed projects, the world's most advanced <abbr title="Internationa
 
 <hr class="mb-5" />
 
-<b-alert show variant="success" class="p-4">
+<e-alert variant="success" class="p-4">
 <h3>Free demonstration &ndash; with your own data (optional)</h3>
 <p>Get in touch with us to arrange a free demonstration. If you wish, we can show you how the Dashboard would look using your own data.</p>
-<b-btn variant="light" :to="{'path': '/get-in-touch/'}">Book a free demonstration &raquo;</b-btn>
-</b-alert>
+<e-button variant="light" path="/get-in-touch/">Book a free demonstration &raquo;</e-button>
+</e-alert>

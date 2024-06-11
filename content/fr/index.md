@@ -20,8 +20,8 @@ Des fonctionnalités avancées permettent de saisir une grande variété d'infor
 
 Pour les projets financés par des partenaires du développement, cette intégration IATI la plus avancée au monde permet de mettre à jour automatiquement les données financières, ce qui améliore considérablement la qualité des données et réduit tout autant la charge de leur collecte.
 
-<b-alert show variant="success" class="p-4">
+<e-alert variant="success" class="p-4">
 <h3>Démonstration gratuite &ndash; avec vos propres données (optionnel)</h3>
 <p>Prenez contact avec nous pour organiser une démonstration gratuite. Si vous le souhaitez, nous pouvons vous démontrer comment vos données seraient visualisées dans le système.</p>
-<b-btn variant="light" :to="{'path': '/fr/get-in-touch/'}">Inscrivez-vous &raquo;</b-btn>
-</b-alert>
+<e-button variant="light" path="/fr/get-in-touch/">Inscrivez-vous &raquo;</e-button>
+</e-alert>

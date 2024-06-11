@@ -2,21 +2,21 @@
 
 For more details or for a demonstration, please get in touch with us.
 
-<b-row>
-  <b-col md="6">
+<e-row>
+  <e-col md="6">
     <h2>Email</h2>
     <p><a href="mailto:info@emergentally.com">info@emergentally.com</a></p>
     <h2>Phone</h2>
     <p><a href="tel:+493061748338">+49 30 6174 8338</a></p>
-  </b-col>
-  <b-col md="6">
+  </e-col>
+  <e-col md="6">
     <h2>Address</h2>
     <p>Emergentally GmbH<br />
-      Schudomastr 45<br />
+      Mareschstr 10<br />
       12055 Berlin<br />
       Germany</p>
-    </b-col>
-</b-row>
+    </e-col>
+</e-row>
 
 ## Registration details
 
