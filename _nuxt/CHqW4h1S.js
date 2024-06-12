@@ -1,0 +1,1 @@
+import{o as r,k as a,w as n,r as c,U as p}from"./Czaavcw0.js";const d={__name:"ECol",props:{md:{type:[String]}},setup(t){const o=t;return(e,l)=>{const s=p;return r(),a(s,{md:o.md},{default:n(()=>[c(e.$slots,"default")]),_:3},8,["md"])}}};export{d as default};

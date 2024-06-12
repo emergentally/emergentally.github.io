@@ -1,0 +1,1 @@
+import{o,k as n,w as s,r as p,B as u}from"./Czaavcw0.js";const _={__name:"EButton",props:{variant:{type:[String],required:!0},path:{type:[String],required:!0}},setup(r){const t=r;return(a,i)=>{const e=u;return o(),n(e,{variant:t.variant,to:{path:t.path}},{default:s(()=>[p(a.$slots,"default")]),_:3},8,["variant","to"])}}};export{_ as default};
