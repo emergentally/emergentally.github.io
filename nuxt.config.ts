@@ -4,24 +4,13 @@ export default defineNuxtConfig({
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'Emergentally',
-    htmlAttrs: {
-      lang: 'en'
+  runtimeConfig: {
+    public: {
+      title: "Emergentally",
+      description: "Data-driven development for emerging economies",
+      twitterImage: "https://emergentally.com/emergentally-logo.png",
+      twitterImageAlt: "Emergentally",
     },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Data-driven development for emerging economies' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'twitter:title', name: 'twitter:title', content: 'Emergentally' },
-      { hid: 'og:title', name: 'og:title', content: 'Emergentally' },
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Data-driven development for emerging economies' },
-      { hid: 'twitter:image', name: 'twitter:image', content: 'https://emergentally.com/emergentally-logo.png' },
-      { hid: 'og:image', name: 'og:image', content: 'https://emergentally.com/emergentally-logo.png' },
-      { hid: 'twitter:image:alt', name: 'twitter:image:alt', content: 'Emergentally' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

@@ -1,5 +1,16 @@
 <template>
   <div>
+    <Head>
+      <Title>{{config.public.title}}</Title>
+      <Meta name="twitter:title" :content="config.public.title" />
+      <Meta name="og:title" :content="config.public.title" />
+      <Meta name="twitter:image" :content="config.public.twitterImage" />
+      <Meta name="og:image" :content="config.public.twitterImage" />
+      <Meta name="twitter:image:alt" :content="config.public.twitterImageAlt" />
+      <Meta name="twitter:card" content="summary_large_image" />
+      <Meta name="description" :content="config.public.description" />
+      <Meta name="twitter:description" :content="config.public.description" />
+    </Head>
     <b-container fluid class="p-0">
       <div class="header">
         <b-container class="header-container" style="vertical-align: bottom;">
@@ -256,6 +267,7 @@ img {
 }
 </style>
 <script setup>
+const config = useRuntimeConfig();
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
