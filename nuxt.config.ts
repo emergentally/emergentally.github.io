@@ -30,7 +30,12 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/i18n",
     "@bootstrap-vue-next/nuxt",
+    '@nuxtjs/plausible',
   ],
+  plausible: {
+    ignoredHostnames: ['localhost'],
+    domain: 'emergentally.com'
+  },
 
   content: {
     api: {
