@@ -22,7 +22,7 @@
           </div>
         </b-container>
       </div>
-      <b-navbar toggleable="lg" type="light" variant="light" class="primary-navbar">
+      <b-navbar toggleable="lg"  v-b-color-mode="'dark'" variant="dark" class="primary-navbar">
           <b-container>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -65,6 +65,10 @@ img {
   box-shadow: 4px 4px 10px #000000;
   margin: 0px 10px 10px 10px;
 }
+.card-deck img {
+  box-shadow: initial;
+  margin: initial;
+}
 
 @media (max-width: 1200px) {
   img {
@@ -80,6 +84,12 @@ img {
 }
 .primary-navbar {
   border-bottom: 1px solid #dddddd;
+}
+.primary-navbar.bg-dark {
+  background-color: #000000 !important;
+}
+.primary-navbar.bg-dark a, .primary-navbar.bg-dark button {
+  color: #ffffff !important;
 }
 .w-33 {
   width: 33%;
