@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   components: true,
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -31,7 +32,9 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@bootstrap-vue-next/nuxt",
     '@nuxtjs/plausible',
+    "@nuxt/image"
   ],
+
   plausible: {
     ignoredHostnames: ['localhost'],
     domain: 'emergentally.com'
@@ -45,8 +48,13 @@ export default defineNuxtConfig({
       anchorLinks: {
         depth: 2
       }
-    }
+    },
+    /*
+    defaultLocale: 'en',
+    locales: ['en', 'fr']
+    */
   },
+
   css: [
     "bootstrap/dist/css/bootstrap.min.css",
     "bootstrap-vue-next/dist/bootstrap-vue-next.css"
@@ -92,7 +100,10 @@ export default defineNuxtConfig({
         '/fr/development-dashboard/']
     }
   },
+
   experimental: {
     defaults: { nuxtLink: { trailingSlash: "append" } }
-  }
+  },
+
+  compatibilityDate: '2024-07-18'
 })
