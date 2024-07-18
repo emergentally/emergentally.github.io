@@ -7,7 +7,7 @@
                 {{ $t('frontPageBox.softwareSubtitle') }}
             </h6>
              <b-card-body>
-            <b-carousel controls indicators ride="carousel" class="mb-2">
+            <b-carousel controls indicators ride="carousel" class="mb-2" id="carousel">
               <b-carousel-slide
                 background="none">
                 <template #img>
@@ -29,7 +29,7 @@
                 </template>
             </b-carousel-slide>
             </b-carousel>
-            <b-button :to="localePath({path: 'development-dashboard'})" variant="light">Development Dashboard</b-button>
+            <b-button :to="localePath({path: '/development-dashboard'})" variant="light">Development Dashboard</b-button>
         </b-card-body>
         </b-card>
         <b-card
