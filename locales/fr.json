@@ -24,5 +24,19 @@
       "value": "/get-in-touch/",
       "text": "Contact"
     }
+  },
+  "frontPageBox": {
+    "software": "Software",
+    "softwareSubtitle": "Notre solution phare de gestion du développement",
+    "advisoryServices": "Services de conseil ",
+    "advisoryServicesSubtitle": "Services de consultation et de conseil sur mesure",
+    "advisoryServicesProvided": "Nous avons fourni une série de services à des clients, notamment :",
+    "advisoryServicesItems": [
+      "Analyses et conseils économiques",
+      "Études de faisabilité",
+      "Évaluations des besoins et collecte des besoins",
+      "Prototypage rapide et maquettes",
+      "Analyse et gestion des données"
+    ]
   }
 }

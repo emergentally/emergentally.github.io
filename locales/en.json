@@ -14,5 +14,19 @@
       "value": "/get-in-touch/",
       "text": "Get in touch"
     }
+  },
+  "frontPageBox": {
+    "software": "Software",
+    "softwareSubtitle": "Our flagship development management solution",
+    "advisoryServices": "Advisory Services",
+    "advisoryServicesSubtitle": "Tailored consultancy and advisory services",
+    "advisoryServicesProvided": "We have provided a range of services for clients including:",
+    "advisoryServicesItems": [
+      "Economic analysis and advice",
+      "Feasibility studies",
+      "Needs assessments and requirements gathering",
+      "Rapid prototyping and mock-ups",
+      "Data analysis and management"
+    ]
   }
 }
