@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentQuery :path="localizedPath($route.path)" find="one" v-slot="{ data }">
+    <ContentQuery :path="localePath($route.path)" find="one" v-slot="{ data }">
       <template v-if="data?.title">
         <Head>
           <Title>{{ data.title }} | {{config.public.title}}</Title>
@@ -13,17 +13,8 @@
   </div>
 </template>
 <script setup>
-
 const i18n = useI18n();
-function localizedPath(path) {
-  // Use this.$i18n.locale to get the current locale
-  const locale = i18n.locale.value;
-  // Add the locale to the path
-  if (path.startsWith(`/${locale}`)) {
-    return path
-  } else {
-    return `/${locale}${path}`;
-  }
-}
+const { t, locale } = useI18n()
+const localePath = useLocalePath()
 const config = useRuntimeConfig()
 </script>
