@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentQuery :path="localePath($route.path)" find="one" v-slot="{ data }">
+    <ContentQuery :path="pageLocalePath" find="one" v-slot="{ data }">
       <template v-if="data?.title">
         <Head>
           <Title>{{ data.title }} | {{config.public.title}}</Title>
@@ -17,4 +17,8 @@ const i18n = useI18n();
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
 const config = useRuntimeConfig()
+const route = useRoute();
+const pageLocalePath = computed(() => {
+  return localePath(route.path)
+})
 </script>
