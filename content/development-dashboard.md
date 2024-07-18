@@ -4,7 +4,7 @@
 
 Originally working with Liberia's Ministry of Finance and Development Planning, we developed the [Liberia Project Dashboard](https://liberiaprojects.org), an innovative system which transforms the management of aid and public investment management in the country. The system is now also used by <b>Nigeria's Federal Ministry of Budget and Economic Planning</b>.
 
-<center>
+<div class="text-center">
 <a href="https://liberiaprojects.org">
 <img
 src="/liberia-project-dashboard-2.png"
@@ -15,7 +15,7 @@ width="350px" />
 src="/nigeria-development-cooperation-dashboard.png"
 width="350px" />
 </a>
-</center>
+</div>
 
 ---
 
