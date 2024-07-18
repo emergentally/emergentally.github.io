@@ -1,0 +1,1 @@
+import{o as s,i as n,w as o,r as l,n as c,v as i}from"./bv20imqy.js";const _={__name:"EAlert",props:{variant:{type:[String],required:!0},class:{type:[String]}},setup(t){const a=t;return(e,p)=>{const r=i;return s(),n(r,{"model-value":!0,variant:a.variant,class:c(a.class)},{default:o(()=>[l(e.$slots,"default")]),_:3},8,["variant","class"])}}};export{_ as default};
