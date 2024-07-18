@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   components: true,
 
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
+  ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   runtimeConfig: {
@@ -92,12 +92,11 @@ export default defineNuxtConfig({
   router: {
     trailingSlash: true,
   },
-
   nitro: {
     prerender: {
       routes: ['/sitemap.xml', '/who-we-are/', '/get-in-touch/',
         '/fr/who-we-are/', '/fr/get-in-touch/', '/development-dashboard/',
-        '/fr/development-dashboard/']
+        '/fr/development-dashboard/', '/', '/fr/']
     }
   },
 
