@@ -19,7 +19,7 @@ function localizedPath(path) {
   // Use this.$i18n.locale to get the current locale
   const locale = i18n.locale.value;
   // Add the locale to the path
-  if (path.includes(locale)) {
+  if (path.startsWith(`/${locale}/`)) {
     return path
   } else {
     return `/${locale}${path}`;

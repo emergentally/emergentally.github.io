@@ -2,10 +2,6 @@
   <div>
     <b-row>
       <b-col md="12">
-        <img
-          src="/liberia-project-dashboard.png"
-          width="350px"
-          align="right" />
         <ContentQuery :path="localizedPath($route.path)" find="one" v-slot="{ data }">
           <template v-if="data?.title">
             <Head>
@@ -26,7 +22,7 @@ function localizedPath(path) {
   // Use this.$i18n.locale to get the current locale
   const locale = i18n.locale.value;
   // Add the locale to the path
-  if (path.includes(locale)) {
+  if (path.startsWith(`/${locale}/`)) {
     return path
   } else {
     return `/${locale}${path}`;
