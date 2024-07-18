@@ -19,6 +19,7 @@ const localePath = useLocalePath()
 const config = useRuntimeConfig()
 const route = useRoute();
 const pageLocalePath = computed(() => {
+  console.log(localePath(route.path))
   return localePath(route.path)
 })
 </script>
