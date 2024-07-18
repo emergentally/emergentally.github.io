@@ -38,7 +38,7 @@
                 class="ml-lg-4 mr-lg-4">{{ $t('menuItems.getInTouch.text') }}</b-nav-item>
             </b-navbar-nav>
             <b-navbar-nav class="ms-auto mb-2 mb-lg-0">
-              <b-nav-item-dropdown :text="$t('selectLanguage')" right>
+              <b-nav-item-dropdown :text="$t('selectLanguage')" right id="language">
                 <b-dropdown-item
                   v-for="locale in availableLocales"
                   v-bind:key="locale.code"
