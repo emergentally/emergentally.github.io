@@ -73,17 +73,26 @@ export default defineNuxtConfig({
         name: 'Français'
       }
     ],
-    langDir: 'locales/'
+    langDir: 'locales/',
+    trailingSlash: 'append'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 
+  router: {
+    trailingSlash: true,
+  },
+
   nitro: {
     prerender: {
-      routes: ['/sitemap.xml', '/who-we-are', '/get-in-touch',
-        '/fr/who-we-are', '/fr/get-in-touch']
+      routes: ['/sitemap.xml', '/who-we-are/', '/get-in-touch/',
+        '/fr/who-we-are/', '/fr/get-in-touch/', '/development-dashboard/',
+        '/fr/development-dashboard/']
     }
+  },
+  experimental: {
+    defaults: { nuxtLink: { trailingSlash: "append" } }
   }
 })
