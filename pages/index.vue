@@ -3,14 +3,13 @@
     <b-row>
       <b-col md="12">
         <ContentQuery :path="pageLocalePath" find="one" v-slot="{ data }">
-          <template v-if="data?.title">
-            <Head>
-              <Title>{{config.public.title}}</Title>
-              <Meta name="twitter:title" :content="`${config.public.title}`" />
-              <Meta name="og:title" :content="`${config.public.title}`" />
-            </Head>
-            <ContentRenderer :value="data" />
-          </template>
+          <Head>
+            <Title>{{config.public.title}}</Title>
+            <Meta name="twitter:title" :content="`${config.public.title}`" />
+            <Meta name="og:title" :content="`${config.public.title}`" />
+          </Head>
+          <ContentRenderer :value="data" />
+          {{ pageLocalePath }}
         </ContentQuery>
       </b-col>
     </b-row>
