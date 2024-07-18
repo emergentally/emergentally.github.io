@@ -43,7 +43,7 @@
                     {{ $t('frontPageBox.advisoryServicesProvided') }}
                 </b-card-text>
                 <ul class="text-start">
-                    <li v-for="item in $tm('frontPageBox.advisoryServicesItems')">{{ item.body.static }}</li>
+                    <li v-for="item in $tm('frontPageBox.advisoryServicesItems')">{{ $rt(item) }}</li>
                 </ul>
             </b-card-body>
         </b-card>
