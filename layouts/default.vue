@@ -103,6 +103,9 @@ img {
 .w-33 {
   width: 33%;
 }
+.header {
+  transition: all 1s;
+}
 .jumbotron {
   background: none; /* background:  url('~/static/noun-data-5139476.svg') no-repeat right top fixed; */
   -webkit-background-size: 600px 600px;
@@ -112,16 +115,35 @@ img {
   margin-bottom: 0px;
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
+  transition: all 1s;
 }
 .jumbotron .lead {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family:  tangoSans;
+  color: #ffffff;
+  text-shadow: 0px 0px 1px #ffffff;
+  font-size: 1.7em;
+  background: #000000;
+  border-right: .15em solid orange; /* The typwriter cursor */
+  animation:
+    blink-caret .75s step-end infinite;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 .header-home .jumbotron {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
 }
 .header-home .jumbotron .lead {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+
+  padding: 5px 5px 5px 10px;
+  margin-left: -5px;
+  height: auto;
 }
 .jumbotron h1 {
   font-family: tangoSans;
@@ -130,6 +152,7 @@ img {
   text-shadow: 0px 0px 20px #444444;
   font-size: 4em;
   letter-spacing: -1px;
+  transition: all 1s;
 }
 .header-home .jumbotron h1 {
   font-size: 7em;
@@ -158,21 +181,6 @@ h1 {
 .jumbotron h1::first-letter {
   font-size: 1em;
   text-shadow: 0px 0px 20px #222222;
-}
-.jumbotron .lead {
-  font-family:  tangoSans;
-  color: #ffffff;
-  text-shadow: 0px 0px 1px #ffffff;
-  font-size: 1.7em;
-  background: #000000;
-  padding: 5px 5px 5px 10px;
-  margin-left: -5px;
-
-
-  border-right: .15em solid orange; /* The typwriter cursor */
-  animation:
-    blink-caret .75s step-end infinite;
-
 }
 
 /* The typewriter cursor effect */
