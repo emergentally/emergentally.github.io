@@ -35,7 +35,7 @@ Nous avons considérablement amélioré la manière dont le texte est affiché d
 
 ### Améliorer encore notre intégration IATI, la plus avancée au monde
 
-Nous avons considérablement amélioré notre processus d'importation IATI. Le Dashboard est [actuellement la seule intégration IATI utilisée de manière continue] (https://iatistandard.org/en/news/iati-holds-two-workshops-in-kigali-with-governments-and-aims-experts-to-progress-work-on-enabling-data-use/). Nous nous sommes appuyés sur notre expérience de l'utilisation des données de l'IITA pour assurer la compatibilité avec un plus grand nombre de PD, en saisissant désormais les données de onze PD.
+Nous avons considérablement amélioré notre processus d'importation IATI. Le Dashboard est [actuellement la seule intégration IATI utilisée de manière continue](https://iatistandard.org/en/news/iati-holds-two-workshops-in-kigali-with-governments-and-aims-experts-to-progress-work-on-enabling-data-use/). Nous nous sommes appuyés sur notre expérience de l'utilisation des données de l'IITA pour assurer la compatibilité avec un plus grand nombre de PD, en saisissant désormais les données de onze PD.
 
 ### Visualisation des données par État
 
@@ -49,7 +49,7 @@ Nous avons également amélioré le filtrage des activités, afin de permettre l
 
 ## Présentation lors de réunions internationales
 
-Le Dashboard pour le Nigeria a déjà	 été présenté lors de réunions internationales à Addis-Abeba, en Éthiopie, et plus récemment lors de [l'événement parallèle sur le financement du développement à New York] (https://webtv.un.org/en/asset/k1z/k1ztj55mpz?kalturaStartTime=826). Le gouvernement du Nigeria a noté que :
+Le Dashboard pour le Nigeria a déjà	 été présenté lors de réunions internationales à Addis-Abeba, en Éthiopie, et plus récemment lors de [l'événement parallèle sur le financement du développement à New York](https://webtv.un.org/en/asset/k1z/k1ztj55mpz?kalturaStartTime=826). Le gouvernement du Nigeria a noté que :
 
 > La transparence et l'efficacité de l'aide sont essentielles pour nous... Nous avons récemment mis à jour notre système de gestion de l'information sur l'aide afin d'intégrer les données de l'IITA. Cela nous aide de nombreuses façons, notamment en ce qui concerne l'exhaustivité et l'actualité des données, ainsi que la traçabilité des flux de ressources.
 >
