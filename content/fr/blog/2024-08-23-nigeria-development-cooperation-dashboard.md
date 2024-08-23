@@ -1,7 +1,7 @@
 ---
 title: Nigeria Development Cooperation Dashboard
 date: 2024-08-23
-description: En collaboration avec le ministère fédéral du budget et de la planification économique du Nigéria, nous avons développé un prototype du Dashboard pour suivre les projets de coopération au développement, ainsi que les projets financés par le budget fédéral. Dans le cadre de ce travail, nous avons apporté une série d'améliorations au tableau de bord.
+description: En collaboration avec le ministère fédéral du budget et de la planification économique du Nigéria, nous avons développé un prototype du Dashboard pour suivre les projets de coopération au développement, ainsi que les projets financés par le budget fédéral. Dans le cadre de ce travail, nous avons apporté une série d'améliorations au Dashboard.
 ---
 
 # Nigeria Development Cooperation Dashboard
@@ -15,7 +15,7 @@ width="350px" />
 </a>
 </div>
 
-En collaboration avec le ministère fédéral du budget et de la planification économique du Nigéria, nous avons développé un prototype du Dashboard pour suivre les projets de coopération au développement, ainsi que les projets financés par le budget fédéral. Dans le cadre de ce travail, nous avons apporté une série d'améliorations au tableau de bord.
+En collaboration avec le ministère fédéral du budget et de la planification économique du Nigéria, nous avons développé un prototype du Dashboard pour suivre les projets de coopération au développement, ainsi que les projets financés par le budget fédéral. Dans le cadre de ce travail, nous avons apporté une série d'améliorations au Dashboard.
 
 ---
 
