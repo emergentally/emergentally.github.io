@@ -12,10 +12,10 @@
       <Meta name="twitter:description" :content="config.public.description" />
     </Head>
     <b-container fluid class="p-0">
-      <div class="header">
+      <div :class="pageClass">
         <b-container class="header-container" style="vertical-align: bottom;">
           <div class="rounded-3 jumbotron">
-            <b-container fluid class="py-5">
+            <b-container fluid>
               <h1 class="display-5 fw-bold">Emergentally.</h1>
               <p class="lead">Data-driven development for emerging economies</p>
             </b-container>
@@ -110,14 +110,30 @@ img {
   -o-background-size: 600px 600px;
   background-size: 600px 600px;
   margin-bottom: 0px;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.jumbotron .lead {
+  display: none;
+}
+.header-home .jumbotron {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.header-home .jumbotron .lead {
+  display: block;
 }
 .jumbotron h1 {
   font-family: tangoSans;
   color:  #ffffff;
-  margin-top: 20px;
+  margin-top: 5px;
   text-shadow: 0px 0px 20px #444444;
-  font-size: 7em;
+  font-size: 4em;
   letter-spacing: -1px;
+}
+.header-home .jumbotron h1 {
+  font-size: 7em;
+  margin-top: 20px;
 }
 @media (max-width: 1200px) {
   .jumbotron h1 {
@@ -125,6 +141,13 @@ img {
     letter-spacing: -1px;
   }
   .jumbotron .lead {
+    font-size: 1.2em;
+  }
+  .header-home .jumbotron h1 {
+    font-size: 4em;
+    letter-spacing: -1px;
+  }
+  .header-home .jumbotron .lead {
     font-size: 1.2em;
   }
 }
@@ -295,8 +318,16 @@ const config = useRuntimeConfig();
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
+const route = useRoute();
 
 const availableLocales = computed(() => {
   return (locales.value).filter(i => i.code !== locale.value)
+})
+
+const pageClass = computed(() => {
+  if (route.name && route.name.startsWith("index")) {
+    return 'header header-home'
+  }
+  return 'header '
 })
 </script>
