@@ -32,8 +32,16 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@bootstrap-vue-next/nuxt",
     '@nuxtjs/plausible',
-    "@nuxt/image"
+    "@nuxt/image",
+    '@vesp/nuxt-fontawesome',
   ],
+
+  fontawesome: {
+    icons: {
+      solid: ['house', 'people-group', 'address-book', 'newspaper'],
+      regular: []
+    }
+  },
 
   plausible: {
     ignoredHostnames: ['localhost'],

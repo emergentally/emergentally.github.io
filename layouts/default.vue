@@ -29,15 +29,18 @@
             <b-navbar-nav>
               <b-nav-item
                 :to="localePath($t('menuItems.whatWeDo.value'))"
-                class="ml-lg-4 mr-lg-4">{{ $t('menuItems.whatWeDo.text') }}</b-nav-item>
+                class="me-lg-3 fs-5"><font-awesome :icon="['fas', 'house']" class="me-2" /> {{ $t('menuItems.whatWeDo.text') }}</b-nav-item>
               <b-nav-item
                 :to="localePath($t('menuItems.whoWeAre.value'))"
-                class="ml-lg-4 mr-lg-4">{{ $t('menuItems.whoWeAre.text') }}</b-nav-item>
+                class="me-lg-3 fs-5">{{ $t('menuItems.whoWeAre.text') }}</b-nav-item>
               <b-nav-item
                 :to="localePath($t('menuItems.getInTouch.value'))"
-                class="ml-lg-4 mr-lg-4">{{ $t('menuItems.getInTouch.text') }}</b-nav-item>
+                class="me-lg-3 fs-5">{{ $t('menuItems.getInTouch.text') }}</b-nav-item>
+              <b-nav-item
+                :to="localePath($t('menuItems.blog.value'))"
+                class="me-lg-3 fs-5">{{ $t('menuItems.blog.text') }}</b-nav-item>
             </b-navbar-nav>
-            <b-navbar-nav class="ms-auto mb-2 mb-lg-0">
+            <b-navbar-nav class="ms-auto mb-2 mb-lg-0 fs-5">
               <b-nav-item-dropdown :text="$t('selectLanguage')" right id="language">
                 <b-dropdown-item
                   v-for="locale in availableLocales"
@@ -58,6 +61,12 @@
   </div>
 </template>
 <style>
+a.nav-link {
+  border-bottom: 2px solid transparent;
+}
+a.nav-link:hover {
+  border-bottom: 2px solid grey;
+}
 hr {
   margin-top: 40px;
 }
@@ -274,6 +283,11 @@ img {
   box-shadow: inset 0 3px 7px rgb(0 0 0 / 20%), inset 0 -3px 7px rgb(0 0 0 / 20%);
   margin: 0px;
   color: #fff;
+}
+
+blockquote {
+  border-left: 8px solid grey;
+  padding-left: 14px;
 }
 </style>
 <script setup>

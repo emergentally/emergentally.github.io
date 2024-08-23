@@ -13,6 +13,10 @@
     "getInTouch": {
       "value": "/get-in-touch/",
       "text": "Get in touch"
+    },
+    "blog": {
+      "value": "/blog/",
+      "text": "Blog"
     }
   },
   "frontPageBox": {
@@ -28,5 +32,8 @@
       "Rapid prototyping and mock-ups",
       "Data analysis and management"
     ]
+  },
+  "blog": {
+    "learnMore": "Learn more about Emergentally’s work in supporting governments, multilaterals and CSOs to address their development challenges."
   }
 }

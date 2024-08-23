@@ -23,6 +23,10 @@
     "getInTouch": {
       "value": "/get-in-touch/",
       "text": "Contact"
+    },
+    "blog": {
+      "value": "/blog/",
+      "text": "Blog"
     }
   },
   "frontPageBox": {
@@ -38,5 +42,8 @@
       "Prototypage rapide et maquettes",
       "Analyse et gestion des données"
     ]
+  },
+  "blog": {
+    "learnMore": "En savoir plus sur le travail d'Emergentally dans le soutien aux gouvernements, aux organisations multilatérales et aux OSC pour relever leurs défis en matière de développement."
   }
 }
