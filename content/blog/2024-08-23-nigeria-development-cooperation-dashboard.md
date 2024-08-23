@@ -2,6 +2,8 @@
 title: Nigeria Development Cooperation Dashboard
 date: 2024-08-23
 description: Working with Nigeria’s Federal Ministry of Budget and Economic Planning, we developed a prototype Dashboard to track development cooperation projects, as well as projects financed from the federal budget. We made a range of improvements to the Dashboard as part of this work.
+imgURL: https://emergentally.com/nigeria-development-cooperation-dashboard.png
+imgAlt: Nigeria Development Cooperation Dashboard
 ---
 
 <div class="text-center float-end mb-4 ms-3">
