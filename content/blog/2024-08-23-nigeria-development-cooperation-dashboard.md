@@ -4,8 +4,6 @@ date: 2024-08-23
 description: Working with Nigeria’s Federal Ministry of Budget and Economic Planning, we developed a prototype Dashboard to track development cooperation projects, as well as projects financed from the federal budget. We made a range of improvements to the Dashboard as part of this work.
 ---
 
-# Nigeria Development Cooperation Dashboard
-
 <div class="text-center float-end mb-4 ms-3">
 <a href="https://nigeria.emergentally.com">
 <img
@@ -55,7 +53,7 @@ The Dashboard has since been presented at international meetings in Addis Ababa,
 >
 > *Henry Asor Nkang, Federal Ministry of Budget and Economic Planning, Government of Nigeria*
 
-The Government of Nigeria wrote more about their vision for FfD4 [on the GPEDC Blog](https://www.effectivecooperation.org/topic/nigeria-ffd4).
+The Government of Nigeria shared more information about their vision for FfD4 [on the GPEDC Blog](https://www.effectivecooperation.org/topic/nigeria-ffd4).
 
 ## Improvements are already available for other countries
 
