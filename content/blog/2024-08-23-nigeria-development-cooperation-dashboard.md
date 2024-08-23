@@ -55,6 +55,8 @@ The Dashboard has since been presented at international meetings in Addis Ababa,
 >
 > *Henry Asor Nkang, Federal Ministry of Budget and Economic Planning, Government of Nigeria*
 
+The Government of Nigeria wrote more about their vision for FfD4 [on the GPEDC Blog](https://www.effectivecooperation.org/topic/nigeria-ffd4).
+
 ## Improvements are already available for other countries
 
 Finally, the improvements that we’ve made based on the investment and feedback received from Nigeria are already available on the [Liberia Project Dashboard](https://liberiaprojects.org). We have set up robust deployment processes which make it easy, secure, and error-free to deploy improvements as soon as they are available.

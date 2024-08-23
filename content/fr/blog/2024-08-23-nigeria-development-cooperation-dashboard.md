@@ -55,6 +55,8 @@ Le Dashboard pour le Nigeria a déjà	 été présenté lors de réunions intern
 >
 > *Henry Asor Nkang, du ministère fédéral du budget et de la planification économique, gouvernement du Nigeria.*
 
+Le gouvernement du Nigeria a donné plus d'informations sur sa vision du FfD4 [sur le blog du GPEDC](https://www.effectivecooperation.org/topic/nigeria-ffd4).
+
 ## Des améliorations sont déjà disponibles pour d'autres pays
 
 Enfin, les améliorations que nous avons apportées sur la base des investissements et des commentaires reçus du Nigeria sont déjà disponibles sur le [Liberia Project Dashboard](https://liberiaprojects.org). Nous avons mis en place des processus de déploiement robustes qui permettent de déployer facilement, en toute sécurité et sans erreur les améliorations dès qu'elles sont disponibles.
