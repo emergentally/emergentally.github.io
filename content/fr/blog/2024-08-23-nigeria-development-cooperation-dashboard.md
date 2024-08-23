@@ -39,7 +39,7 @@ Nous avons considérablement amélioré notre processus d'importation IATI. Le D
 
 ### Visualisation des données par État
 
-![Nigeria Development Cooperation Dashboard : États](/nigeria-development-cooperation-dashboard-states.png){align=« right » .mb-4}
+![Nigeria Development Cooperation Dashboard : États](/nigeria-development-cooperation-dashboard-states.png){align="right" .mb-4}
 
 Compte tenu de la nature fédérale du Nigeria, nous avons également amélioré la visualisation des données par État, ce qui permet de voir facilement où les activités ont lieu.
 
