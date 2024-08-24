@@ -16,7 +16,9 @@
         <b-container class="header-container" style="vertical-align: bottom;">
           <div class="rounded-3 jumbotron">
             <b-container fluid>
-              <h1 class="display-5 fw-bold">Emergentally.</h1>
+              <nuxt-link :to="localePath('/')">
+                <h1 class="display-5 fw-bold">Emergentally.</h1>
+              </nuxt-link>
               <p class="lead">Data-driven development for emerging economies</p>
             </b-container>
           </div>
@@ -167,6 +169,9 @@ img {
   font-size: 4em;
   letter-spacing: -1px;
   transition: all 1s;
+}
+.jumbotron a {
+  text-decoration: none;
 }
 .header-home .jumbotron h1 {
   font-size: 7em;
