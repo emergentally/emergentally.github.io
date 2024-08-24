@@ -58,6 +58,18 @@
         <slot />
       </b-container>
     </b-container>
+    <b-container class="p-5 footer">
+      <footer>
+        <b-row>
+          <b-col>Copyright &copy; Emergentally 2022-2024. All rights reserved.</b-col>
+          <b-col class="text-end fs-4">
+            <nuxt-link href="https://mastodon.social/@emergentally" class="me-3"><font-awesome :icon="['fab', 'mastodon']" /></nuxt-link>
+            <nuxt-link href="https://bsky.app/profile/emergentally.bsky.social" class="me-3"><font-awesome :icon="['fab', 'bluesky']" /></nuxt-link>
+            <nuxt-link href="https://x.com/emergentally" class="me-3"><font-awesome :icon="['fab', 'twitter']" /></nuxt-link>
+          </b-col>
+        </b-row>
+      </footer>
+    </b-container>
   </div>
 </template>
 <style>
