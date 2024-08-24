@@ -4,7 +4,7 @@
         <h2>{{ article.title }}</h2>
         <h5 class="text-muted">{{ formatDate(article.date) }}</h5>
         <p>{{ article.description }}</p>
-        <BButton :to="{path: article._path}">Read more &raquo;</BButton>
+        <NuxtLink :to="{path: article._path}">Read more &raquo;</NuxtLink>
       </BCard>
     </ContentList>
 </template>
