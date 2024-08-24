@@ -181,7 +181,7 @@ img {
     font-size: 1.2em;
   }
   .header-home .jumbotron h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     letter-spacing: -1px;
   }
   .header-home .jumbotron .lead {
@@ -222,7 +222,7 @@ h1 {
 }
 @media (max-width: 1200px) {
   .page-body h1 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .page-body h2 {
     font-size: 2em;
