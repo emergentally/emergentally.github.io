@@ -32,8 +32,6 @@ Au cours des dernières années, l'utilisation des données de l'IITA pour relev
 
 Nous savons [par notre propre expérience](/fr/blog/2024-08-23-nigeria-development-cooperation-dashboard/) que les données de l'IITA peuvent être très bénéfiques pour les utilisateurs, mais qu'elles peuvent aussi être très difficiles à utiliser. Une première étape devrait consister à parler aux utilisateurs actuels de l'IITA et à apprendre d'eux. Comment ont-ils utilisé les données de l'IITA et quels problèmes cela leur a-t-il permis de résoudre ? Quels obstacles ont-ils rencontrés dans l'utilisation des données de l'IITA ? Comment pouvons-nous réduire ces obstacles ? La réponse à ces questions pourrait permettre d'identifier des activités claires et spécifiques qui faciliteraient l'utilisation des données de l'IITA par la prochaine génération d'utilisateurs.
 
----
-
 ## Une approche pour une nouvelle stratégie d'utilisation des données
 
 Lorsque l'on réfléchit à la manière d'établir des priorités pour les travaux futurs sur l'utilisation des données, il est tentant de passer directement au « qui ». Tout le monde a un ensemble d'acteurs avec lesquels il est le plus familier, et il est compréhensible que chacun d'entre nous pense que les parties prenantes dont il est le plus proche devraient être une priorité élevée à soutenir dans l'utilisation des données.
@@ -47,6 +45,8 @@ Une fois que nous savons **ce que** nous essayons de réaliser, nous devons réf
 3. **Comment** faire parvenir les données à ces personnes ou organisations (activités) ?
 
 Le reste de ce post esquisse quelques réponses à ces trois questions. Chaque personne aura des réponses différentes à chacune de ces questions.
+
+---
 
 ### 1. Que voulons-nous réaliser ?
 
@@ -68,7 +68,7 @@ Pour atteindre ces résultats, il est important de s'engager avec différents gr
 3. Plateformes d'ONG et médias
 4. Plateformes d'ONG, groupes de coordination des partenaires au développement, ministères des finances ou de la planification
 
-Mon point de vue personnel est que l'utilisation des données par les parties prenantes au niveau national aura l'impact le plus direct sur la réalisation des quatre résultats. Toutefois, l'utilisation des données par les parties prenantes au niveau mondial peut également jouer un rôle favorable et parfois très puissant sur l'efficacité du développement et la responsabilité. (Par exemple : les donateurs améliorent la manière dont leurs ressources sont fournies en modifiant les procédures au siège ; les partenaires de mise en œuvre améliorent leurs propres performances ; les journalistes ou les ONG demandent aux donateurs de rendre compte de leurs engagements).
+Mon point de vue personnel est que l'utilisation des données par les parties prenantes au niveau national aura l'impact le plus direct sur la réalisation des quatre résultats. Toutefois, l'utilisation des données par les parties prenantes au niveau mondial peut également jouer un rôle favorable et parfois très puissant sur l'efficacité du développement et la responsabilité. [^4]
 
 Quelles sont les parties prenantes à privilégier ? Une analyse des parties prenantes pourrait permettre d'identifier les groupes qui ont le plus a) d'influence et b) d'intérêt par rapport à chaque résultat.
 
@@ -102,3 +102,4 @@ La communauté de l'IITA est sur le point de commencer à discuter du plan strat
 [^1]: Bien sûr, c'est une bonne chose que les gens utilisent les données pour ce qu'ils veulent en faire, et nous devrions donc toujours soutenir un large éventail de cas d'utilisation. Mais si nous ne sommes pas motivés avant tout par un impact sur le monde réel, il est difficile de voir comment l'IITA pourra rester pertinente.
 [^2]: J'ai raccourci et légèrement reformulé les résultats de la théorie du changement originale par souci de concision et de cohérence. Quelques-uns des résultats intermédiaires originaux comprennent le texte « utiliser des données ouvertes pour... », qui est un moyen d'atteindre un résultat plutôt qu'un résultat lui-même. J'ai également exclu deux des autres résultats intermédiaires qui ne me semblent pas se situer au même niveau ; « la transparence reste une priorité politique » est un moyen d'atteindre d'autres résultats, et « la coopération au développement est efficace » est plus clairement décrite par les autres résultats intermédiaires (reformulés).
 [^3]: Les ONG(I) individuelles sont également pertinentes en tant que partenaires de mise en œuvre. Toutefois, compte tenu des ressources limitées, il serait logique de donner la priorité à des organes de coordination plus importants, tels que les forums de coordination des PDD ou les MdF, dans un premier temps.
+[^4]: Par exemple : les donateurs améliorent la manière dont leurs ressources sont fournies en modifiant les procédures au siège ; les partenaires de mise en œuvre améliorent leurs propres performances ; les journalistes ou les ONG demandent aux donateurs de rendre compte de leurs engagements.

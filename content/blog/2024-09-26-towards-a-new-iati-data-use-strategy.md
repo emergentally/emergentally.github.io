@@ -32,8 +32,6 @@ Over the last few years, there has been a big increase in the use of IATI data t
 
 We know [from our own experience](/blog/2024-08-23-nigeria-development-cooperation-dashboard/) that IATI data can be very beneficial to users, but it can also be very difficult to use. As a first step, we should talk to IATI’s existing users, and learn from them. How did they use IATI data, and what problems did this help them solve? What barriers did they face in using IATI data? How can we lower those barriers? The answer to these questions could help identify clear, specific activities which would make it easier for the next generation of people that come to use IATI data.
 
----
-
 ## A framework for a new data use strategy
 
 When thinking about how to prioritise further work on data use, it’s tempting to jump straight to the “who”. Everybody has a set of actors that they are most familiar with, and it is understandable that each of us think the stakeholders we are closest to should be a high priority to support in using the data.
@@ -47,6 +45,8 @@ Once we know **what** we are trying to achieve, we need to think about **who** w
 3. **How** do we get the data to those people or organisations (activities)?
 
 The rest of this post will sketch out some answers to these three questions. Different people will have different answers to each of the questions.
+
+---
 
 ### 1. What do we want to achieve?
 
@@ -68,7 +68,7 @@ In order to achieve these outcomes, it is important to engage with different gro
 3. NGO platforms and media
 4. NGO platforms, Development Partner coordination groups, Ministries of Finance or Planning
 
-My personal perspective is that the use of data by country-level stakeholders will have the most direct impact in achieving all four outcomes. However, the use of data by global-level stakeholders can also have an enabling and sometimes very powerful role on development effectiveness and accountability. (For example: donors improve the way in which their resources are provided by changing procedures at HQ; implementing partners improve their own performance; journalists or NGOs hold donors to account for their commitments.)
+My personal perspective is that the use of data by country-level stakeholders will have the most direct impact in achieving all four outcomes. However, the use of data by global-level stakeholders can also have an enabling and sometimes very powerful role on development effectiveness and accountability. [^4]
 
 Which stakeholders should eventually be prioritised? A stakeholder analysis could help identify the groups that have the most a) influence and b) interest in relation to each outcome.
 
@@ -102,3 +102,4 @@ The IATI community is about to begin discussing the IATI Strategic Plan for 2026
 [^1]: Of course, it’s great for people to use the data for whatever they want to do with it, and so we should always support a broad range of use cases. But if we are not driven primarily to achieve real-world impact, it is hard to see how IATI will retain relevance.
 [^2]: It might be helpful to distinguish the *intermediate results* in the Theory of Change between **intermediate outcomes** and **ultimate outcomes**; I think this language might be clearer. I've shortened and slightly rephrased from the original Theory of Change for brevity and consistency. A couple of the original intermediate results include the text “use open data to…”, which is a means to achieve an outcome rather than an outcome itself. I’ve also excluded two of the other intermediate results which do not feel like they are at the same level; “transparency remains high on the political agenda” is a means of achieving other outcomes, and “development cooperation is effective” is more clearly described by the other (rephrased) intermediate results.
 [^3]: Individual (I)NGOs are also relevant here as implementing partners. However, given scarce resources, it would make sense to prioritise larger coordinating bodies such as CPGs or MoFs in the first instance.
+[^4]: For example: donors improve the way in which their resources are provided by changing procedures at HQ; implementing partners improve their own performance; journalists or NGOs hold donors to account for their commitments.
