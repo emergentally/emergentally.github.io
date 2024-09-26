@@ -24,7 +24,7 @@
           </div>
         </b-container>
       </div>
-      <b-navbar toggleable="lg"  v-b-color-mode="'dark'" variant="dark" class="primary-navbar">
+      <b-navbar toggleable="md"  v-b-color-mode="'dark'" variant="dark" class="primary-navbar">
           <b-container>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -89,17 +89,13 @@ hr {
 img {
   box-shadow: 4px 4px 10px #000000;
   margin: 0px 10px 10px 10px;
+  max-width:100%;
 }
 .card-deck img {
   box-shadow: initial;
   margin: initial;
 }
 
-@media (max-width: 1200px) {
-  img {
-    width: 200px;
-  }
-}
 .header-container {
   width: 100%;
 }
@@ -267,11 +263,7 @@ img {
   margin: 0px 10px 10px 10px;
 }
 
-@media (max-width: 1200px) {
-  img {
-    width: 200px;
-  }
-}
+
 .header-container {
   width: 100%;
 }
