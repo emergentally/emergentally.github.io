@@ -6,7 +6,7 @@ imgURL: https://emergentally.com/nigeria-development-cooperation-dashboard.png
 imgAlt: Nigeria Development Cooperation Dashboard
 ---
 
-<div class="text-center float-end mb-4 ms-3">
+<div class="text-center float-md-end mb-lg-4 ms-lg-3 mb-2">
 <a href="https://nigeria.emergentally.com">
 <img
 src="/nigeria-development-cooperation-dashboard.png"
