@@ -47,7 +47,6 @@ export default defineNuxtConfig({
 
   plausible: {
     ignoredHostnames: ['localhost'],
-    domain: 'emergentally.com'
   },
 
   content: {
