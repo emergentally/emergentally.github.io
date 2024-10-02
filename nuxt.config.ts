@@ -38,7 +38,8 @@ export default defineNuxtConfig({
 
   fontawesome: {
     icons: {
-      solid: ['house', 'people-group', 'address-book', 'newspaper'],
+      solid: ['house', 'people-group', 'address-book', 'newspaper',
+        'caret-left', 'caret-right'],
       regular: [],
       brands: ['twitter', 'mastodon', 'bluesky']
     }
