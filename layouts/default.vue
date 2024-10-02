@@ -203,8 +203,13 @@ h1 {
   from, to { border-color: transparent }
   50% { border-color: white; }
 }
+html {
+  height: 100%;
+}
+/* NB this doesn't take into account the home page, but that is normally OK anyway */
 .page-body {
   margin-bottom: 20px;
+  min-height: calc(100vh - 8.25rem - 6rem - 7rem + 1px); /* 100% - header - navbar - footer */
 }
 .page-body h1 {
   font-family: tangoSans;
