@@ -44,6 +44,8 @@
     ]
   },
   "blog": {
-    "learnMore": "En savoir plus sur le travail d'Emergentally dans le soutien aux gouvernements, aux organisations multilatérales et aux OSC pour relever leurs défis en matière de développement."
+    "learnMore": "En savoir plus sur le travail d'Emergentally dans le soutien aux gouvernements, aux organisations multilatérales et aux OSC pour relever leurs défis en matière de développement.",
+    "nextArticle": "Lire le prochain article",
+    "previousArticle": "Lire l’article précédent"
   }
 }

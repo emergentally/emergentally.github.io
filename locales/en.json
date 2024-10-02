@@ -34,6 +34,8 @@
     ]
   },
   "blog": {
-    "learnMore": "Learn more about Emergentally’s work in supporting governments, multilaterals and CSOs to address their development challenges."
+    "learnMore": "Learn more about Emergentally’s work in supporting governments, multilaterals and CSOs to address their development challenges.",
+    "nextArticle": "Read the next article",
+    "previousArticle": "Read the previous article"
   }
 }
