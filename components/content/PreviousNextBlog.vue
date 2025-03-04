@@ -58,11 +58,13 @@ const blogPath = computed(() => {
 const queryPrevious: QueryBuilderParams = {
   path: blogPath.value,
   sort: [{ date: -1 }],
-  where: ({ date: { $lt: props.date }})
+  where: ({ date: { $lt: props.date }}),
+  limit: 1
 }
 const queryNext: QueryBuilderParams = {
   path: blogPath.value,
   sort: [{ date: 1 }],
-  where: ({ date: { $gt: props.date }})
+  where: ({ date: { $gt: props.date }}),
+  limit: 1
 }
 </script>
