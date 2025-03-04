@@ -91,10 +91,6 @@ h1 {
   font-family: tangoSans;
   letter-spacing: -1px;
 }
-.jumbotron h1::first-letter {
-  font-size: 1em;
-  text-shadow: 0px 0px 20px #222222;
-}
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
