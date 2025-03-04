@@ -143,6 +143,24 @@ hr {
     blink-caret .75s step-end infinite;
   transition: visibility 0s, opacity 0.5s linear;
 }
+
+.header {
+  background: #448822;
+  /*
+  background: url('~/static/20220313_104415.jpg') no-repeat center bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
+  background: linear-gradient(45deg,#448822,#666) repeat scroll 0 0 transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#448822",endColorstr="#666666",GradientType=1);
+
+  box-shadow: inset 0 3px 7px rgb(0 0 0 / 20%), inset 0 -3px 7px rgb(0 0 0 / 20%);
+  margin: 0px;
+  color: #fff;
+  transition: all 1s;
+}
 .header-home .jumbotron {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
@@ -194,6 +212,10 @@ hr {
   }
   .jumbotron .lead {
     font-size: 1em;
+  }
+  .header-home .jumbotron {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
   }
   .header-home .jumbotron h1 {
     font-size: 2.5em;
@@ -255,37 +277,10 @@ html {
   color: #ffffff;
   padding: 2px 4px 2px 4px;
 }
-.header {
-  background: #448822;
-  /*
-  background: url('~/static/20220313_104415.jpg') no-repeat center bottom fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  */
-  background: linear-gradient(45deg,#448822,#666) repeat scroll 0 0 transparent;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#448822",endColorstr="#666666",GradientType=1);
-
-  box-shadow: inset 0 3px 7px rgb(0 0 0 / 20%), inset 0 -3px 7px rgb(0 0 0 / 20%);
-  margin: 0px;
-  color: #fff;
-  transition: all 1s;
-}
 
 .alert-success {
   color: #ffffff;
   background-color: #448822;
-}
-
-.w-33 {
-  width: 33%;
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
 }
 
 blockquote {
