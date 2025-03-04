@@ -87,6 +87,20 @@ hr {
   margin-top: 40px;
 }
 
+h1 {
+  font-family: tangoSans;
+  letter-spacing: -1px;
+}
+.jumbotron h1::first-letter {
+  font-size: 1em;
+  text-shadow: 0px 0px 20px #222222;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
 .blog-article img {
   box-shadow: 4px 4px 10px #000000;
   max-width: calc(min(350px, 100%));
@@ -178,7 +192,7 @@ hr {
   color:  #ffffff;
   margin-top: 5px;
   text-shadow: 0px 0px 20px #444444;
-  font-size: 4em;
+  font-size: 5em !important;
   letter-spacing: -1px;
   transition: all 1s;
 }
@@ -191,7 +205,7 @@ hr {
 }
 @media (max-width: 1200px) {
   .jumbotron h1 {
-    font-size: 3em;
+    font-size: 3.5em !important;
     letter-spacing: -1px;
   }
   .jumbotron .lead {
@@ -207,7 +221,7 @@ hr {
 }
 @media (max-width: 576px) {
   .jumbotron h1 {
-    font-size: 2em;
+    font-size: 3em !important;
     letter-spacing: -1px;
   }
   .jumbotron .lead {
@@ -224,20 +238,6 @@ hr {
   .header-home .jumbotron .lead {
     font-size: 1em;
   }
-}
-h1 {
-  font-family: tangoSans;
-  letter-spacing: -1px;
-}
-.jumbotron h1::first-letter {
-  font-size: 1em;
-  text-shadow: 0px 0px 20px #222222;
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
 }
 html {
   height: 100%;
