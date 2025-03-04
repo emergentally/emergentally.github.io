@@ -64,7 +64,7 @@
       <b-container class="pt-5 pb-5 footer">
         <footer>
           <b-row>
-            <b-col>Copyright &copy; Emergentally GmbH 2022-2024. All rights reserved.</b-col>
+            <b-col>Copyright &copy; Emergentally GmbH. All rights reserved.</b-col>
             <b-col class="text-end fs-4">
               <nuxt-link href="https://mastodon.social/@emergentally" class="me-3"><font-awesome :icon="['fab', 'mastodon']" /></nuxt-link>
               <nuxt-link href="https://bsky.app/profile/emergentally.bsky.social" class="me-3"><font-awesome :icon="['fab', 'bluesky']" /></nuxt-link>
