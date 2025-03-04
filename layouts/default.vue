@@ -91,6 +91,9 @@ img {
   margin: 0px 10px 10px 10px;
   max-width:100%;
 }
+.blog-article img {
+  max-width:350px;
+}
 .card-deck img {
   box-shadow: initial;
   margin: initial;

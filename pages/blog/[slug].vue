@@ -14,8 +14,10 @@
         </Head>
         <h1>{{ doc.title }}</h1>
         <h5 class="text-muted">{{ formatDate(doc.date) }}</h5>
-        <ContentRendererMarkdown :value="doc" />
-        <PreviousNextBlog :date="doc.date" />
+        <div class="blog-article">
+          <ContentRendererMarkdown :value="doc" />
+          <PreviousNextBlog :date="doc.date" />
+        </div>
       </ContentRenderer>
     </ContentDoc>
   </div>
