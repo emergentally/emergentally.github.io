@@ -27,7 +27,7 @@ Our short term response is focused on **understanding the nature of the funding 
 <div class="text-center mt-2 mb-2">
 <figure class="figure">
 	<img src="/usaid-excel.png" class="figure-img img-fluid rounded">
-	<figcaption>USAID data in Excel for one country</figcaption>
+	<figcaption>USAID data in Excel for one (unidentified) country</figcaption>
 </figure>
 <figure class="figure">
 	<img src="/usaid-implementers.png" class="figure-img img-fluid rounded">

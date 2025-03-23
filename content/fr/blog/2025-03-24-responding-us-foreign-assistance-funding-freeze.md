@@ -27,7 +27,7 @@ Notre réponse à court terme consiste à **comprendre la nature des financement
 <div class="text-center mt-2 mb-2">
 <figure class="figure">
 	<img src="/usaid-excel.png" class="figure-img img-fluid rounded">
-	<figcaption>Données USAID au format Excel pour un pays</figcaption>
+	<figcaption>Données de l'USAID au format Excel pour un pays (non identifié)</figcaption>
 </figure>
 <figure class="figure">
 	<img src="/usaid-implementers.png" class="figure-img img-fluid rounded">
