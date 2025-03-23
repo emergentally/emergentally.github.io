@@ -22,3 +22,10 @@ rounded="circle"
 src="/perismuthoni-small.png">
 Muthoni est une développeuse back-end, avec de l'expérience en Java, Python, ainsi qu'en architecture et gestion de bases de données. Elle centre ses solutions sur l'innovation et la créativité, s'assurant ainsi de fournir les conseils les plus optimaux et de livrer des produits logiciels fonctionnels. Son approche de la résolution des problèmes tourne autour de la conception centrée sur l'utilisateur, ce qui lui permet de concevoir des solutions logicielles qui trouvent un écho auprès des utilisateurs finaux et ont un impact significatif. Elle croit fermement que l'adoption de la « design thinking » permet non seulement d'améliorer la convivialité des produits, mais aussi de mieux comprendre les besoins des clients. Elle a précédemment travaillé pour une société de conseil informatique kényane en tant qu'ingénieur full-stack et est comptable agréée.
 </EBio>
+
+<EBio
+name="Matt Geddes"
+rounded="circle"
+src="/matt-geddes-small.png">
+Matt est consultant/chercheur avec plus de 15 ans d'expérience, spécialisé dans le soutien intégré pour aider les gouvernements bénéficiaires à développer leur capacité de gestion de l'aide. Il a également de l'expérience dans le traitement des données relatives à l'aide (y compris l'IITA), les questions de gestion des finances publiques liées à l'aide, la budgétisation, les investissements publics, le financement des collectivités locales et la prestation de services. Il a spécifié et soutenu le développement de multiples systèmes informatiques, portails de données, etc. Il a vécu et travaillé dans de nombreux pays, en particulier dans des états fragiles, et est actuellement basé en Allemagne.
+</EBio>

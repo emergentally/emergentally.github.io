@@ -22,3 +22,12 @@ rounded="circle"
 src="/perismuthoni-small.png">
 Muthoni is a back-end developer, with experience in Java, Python, and database architecture and management. She centres her solutions around innovation and creativity, ensuring that she provides the most optimal advice and delivers functional software products. Her approach to problem-solving revolves around user-centric design, allowing her to craft software solutions that resonate with end-users and drive meaningful impact. She firmly believe that embracing design thinking not only enhances the usability of products but also fosters a deeper understanding of customer needs. She’s previously worked for a Kenyan IT Consultancy firm as a full-stack engineer and is a Chartered Accountant.
 </EBio>
+
+<EBio
+name="Matt Geddes"
+rounded="circle"
+src="/matt-geddes-small.png">
+Matt is a consultant/researcher with over 15 years of experience, specialising in embedded support to aid recipient governments to develop their aid management capacity. He also has experience in working with aid data (including IATI), aid-related PFM issues, budgeting, public investment, local government financing and service delivery. He has specified and supported the development of multiple IT systems, data portals etc. He has lived and worked extensively in a wide range of countries, particularly in fragile states, and is currently based in Germany.
+</EBio>
+
+
