@@ -3,7 +3,7 @@
       <BCard v-for="article in list" :key="article._path" class="mt-3">
         <BRow>
           <BCol md="9" class="mb-2">
-            <h2>{{ article.title }}</h2>
+            <h2><NuxtLink :to="{path: article._path}">{{ article.title }}</NuxtLink></h2>
             <h5 class="text-muted">{{ formatDate(article.date) }}</h5>
             <p>{{ article.description }}</p>
             <NuxtLink :to="{path: article._path}">Read more &raquo;</NuxtLink>
