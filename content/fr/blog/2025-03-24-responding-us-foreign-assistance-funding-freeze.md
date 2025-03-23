@@ -24,6 +24,17 @@ Notre réponse à court terme consiste à **comprendre la nature des financement
 * Nous avons **amélioré le « Dashboard »** pour visualiser plus facilement les organisations de mise en œuvre. Nous savons qu’au moins un partenaire de développement l’a utilisé pour [identifier les partenaires de mise en œuvre](https://nigeria.emergentally.com/by/donor/20) qu’il a en commun avec l’USAID, afin de comprendre comment ajuster son soutien. Les journalistes ont également utilisé les données du « Liberia Project Dashboard » pour comprendre [l’impact sur les ONG libériennes] (https://frontpageafricaonline.com/news/liberia-us-aid-cut-will-have-devastating-impact-on-liberian-ngos-and-the-aid-economy-says-one-local-ngo-head/).
 * Nous avons développé **des analyses spécifiques par pays et par secteur**, afin de comprendre les impacts dans des domaines particuliers, par sous-secteur, partenaire de mise en œuvre et projet. Nous travaillons sur des analyses supplémentaires - n’hésitez pas à nous contacter si vous avez besoin d’aide.
 
+<div class="text-center mt-2 mb-2">
+<figure class="figure">
+	<img src="/usaid-excel.png" class="figure-img img-fluid rounded">
+	<figcaption>Données USAID au format Excel pour un pays</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-implementers.png" class="figure-img img-fluid rounded">
+	<figcaption>Améliorer l'affichage des organisations de mise en œuvre dans le « Dashboard »</figcaption>
+</figure>
+</div>
+
 
 ## Réponse à moyen terme
 Notre réponse à moyen terme est axée sur **l’augmentation de l’efficacité et de l’efficience des ressources restantes**.
@@ -32,6 +43,21 @@ Notre réponse à moyen terme est axée sur **l’augmentation de l’efficacit�
 * Nous améliorons **la couverture des données provenant des partenaires de développement traditionnels**. Nous avons commencé à nous engager auprès de grands fournisseurs traditionnels pour comprendre comment nous pourrions importer leurs données dans le Dashboard. Nous avons également publié une nouvelle fonctionnalité pour faciliter la recherche des lacunes dans les données et importer les projets manquants de l’IITA dans le Dashboard.
 * Nous avons également lancé une nouvelle fonctionnalité pour **améliorer la performance des projets**, en résumant les données sur [les résultats et les taux de décaissement](https://liberiaprojects.org/reports/results).
 * Nous soutiendrons **une allocation stratégique des ressources**, en nous appuyant sur notre travail existant en matière d’alignement, en mettant en correspondance les ressources de développement avec [le plan de développement national](https://liberiaprojects.org/reports/national-development-plan).
+
+<div class="text-center mt-2 mb-2">
+<figure class="figure">
+	<img src="/usaid-import-new.png" class="figure-img img-fluid rounded">
+	<figcaption>Faciliter l'importation de nouvelles activités dans le Dashboard</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-results.png" class="figure-img img-fluid rounded">
+	<figcaption>Résumé de la performance des projets</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-national-development-plan.png" class="figure-img img-fluid rounded">
+	<figcaption>Aligner les activités sur le plan de développement national</figcaption>
+</figure>
+</div>
 
 À l’avenir, nous nous concentrerons sur deux domaines supplémentaires :
 * Nous améliorerons notre couverture du **financement de la lutte contre le changement climatique**. Nous avons récemment aidé le Nigeria à saisir [les données relatives à l’ODD13 dans le Nigeria Development Cooperation Dashboard](https://nigeria.emergentally.com/by/sdg-goals/13). Nous avons identifié des flux de financement qui sont fournis par des banques multilatérales de développement, mais qui proviennent de mécanismes de financement de la lutte contre le changement climatique. Nous prendrons contact avec les fournisseurs de financement de la lutte contre le changement climatique afin de comprendre comment nous pourrions mieux saisir leur financement dans le « Dashboard ».

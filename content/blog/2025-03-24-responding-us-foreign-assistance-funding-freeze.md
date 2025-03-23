@@ -24,6 +24,18 @@ Our short term response is focused on **understanding the nature of the funding 
 * We **improved the Dashboard** to more easily visualise implementing organisations. We know that at least one development partner has used this to [identify implementing partners](https://nigeria.emergentally.com/by/donor/20) which they have in common with USAID, so that they can understand how to adjust their support. Journalists have also used data on the Liberia Project Dashboard to understand [the impact on Liberian NGOs](https://frontpageafricaonline.com/news/liberia-us-aid-cut-will-have-devastating-impact-on-liberian-ngos-and-the-aid-economy-says-one-local-ngo-head/).
 * We have developed **country- and sector-specific analysis**, to understand the impacts in particular areas, by subsector, implementing partner, and project. We are working on additional analysis &ndash; please reach out to us if you need any support.
 
+<div class="text-center mt-2 mb-2">
+<figure class="figure">
+	<img src="/usaid-excel.png" class="figure-img img-fluid rounded">
+	<figcaption>USAID data in Excel for one country</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-implementers.png" class="figure-img img-fluid rounded">
+	<figcaption>Improving the display of implementing organisations in the Dashboard</figcaption>
+</figure>
+</div>
+
+
 ## Medium term response
 Our medium term response is focused on **increasing the effectiveness and efficiency of remaining resources**.
 
@@ -31,6 +43,21 @@ Our medium term response is focused on **increasing the effectiveness and effici
 * We are **improving the coverage of data from traditional development partners**. We have begun engaging with large traditional providers to understand how we could import their data to the Dashboard. We also released new functionality to make it easier to find data gaps, and import missing projects from IATI to the Dashboard.
 * We have also released new functionality to support **improvements in project performance**, through summarising [results data and disbursement rates](https://liberiaprojects.org/reports/results).
 * We will support a **strategic allocation of resources**, building on our existing work on alignment, by mapping development resources against [the national development plan](https://liberiaprojects.org/reports/national-development-plan).
+
+<div class="text-center mt-2 mb-2">
+<figure class="figure">
+	<img src="/usaid-import-new.png" class="figure-img img-fluid rounded">
+	<figcaption>Making it easier to import new activities to the Dashboard</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-results.png" class="figure-img img-fluid rounded">
+	<figcaption>Summarising project performance</figcaption>
+</figure>
+<figure class="figure">
+	<img src="/usaid-national-development-plan.png" class="figure-img img-fluid rounded">
+	<figcaption>Aligning activities against the national development plan</figcaption>
+</figure>
+</div>
 
 Going forward, we will focus on two additional areas:
 * We will improve our coverage of **climate finance**. We recently supported Nigeria to capture [data on SDG13 in the Nigeria Development Cooperation Dashboard](https://nigeria.emergentally.com/by/sdg-goals/13). We have identified funding flows which are provided through multilateral development banks, but originated in climate finance funding facilities. We will reach out to providers of climate finance to understand how we could better capture their funding in the Dashboard.
