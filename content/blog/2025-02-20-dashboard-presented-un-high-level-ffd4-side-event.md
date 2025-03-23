@@ -2,7 +2,7 @@
 title: Dashboard Presented at UN High-Level Side Event
 date: 2025-02-20
 description: The Government of Liberia presented the Liberia Project Dashboard at a High-Level Side Event at the United Nations, emphasising the Dashboard’s position as the world-leading development management solution.
-imgURL: https://emergentally.com/iati-workshop-1.jpeg
+imgURL: https://emergentally.com/ffd4-side-event.png
 imgAlt: Speakers at the full-capacity UN side event.
 
 ---

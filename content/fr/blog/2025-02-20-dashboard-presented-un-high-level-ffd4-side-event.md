@@ -2,7 +2,7 @@
 title: Présentation du Dashboard lors de l'événement parallèle de haut niveau de l'ONU
 date: 2025-02-20
 description: Le gouvernement du Liberia a présenté le Liberia Project Dashboard lors d'un événement parallèle de haut niveau aux Nations Unies, en soulignant la position du Dashboard en tant que solution de gestion du développement leader dans le monde.
-imgURL: https://emergentally.com/iati-workshop-1.jpeg
+imgURL: https://emergentally.com/ffd4-side-event.png
 imgAlt: Intervenants lors de l'événement parallèle de l'ONU qui a fait salle comble.
 
 ---
