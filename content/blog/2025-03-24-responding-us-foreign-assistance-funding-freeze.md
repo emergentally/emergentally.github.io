@@ -13,7 +13,7 @@ src="/2025-03-19-brussels-engagement-day.jpg" />
 <br />Discussing the response to the U.S. funding freeze at the IATI European Community Dialogue in Brussels in March 2025
 </div>
 
-On January 20th 2025, the U.S. Government ordered a pause of all foreign assistance pending a review of programmes. We know that this situation has had significant consequences at the country level and we have been working quietly to support our partners and colleagues to respond to the evolving situation. While respecting the sensitivity and confidentiality of our partners, we wanted to share some ways in which we are responding to the rapidly evolving situation. We hope that this information may help others in thinking through their own response. We presented these ideas at the [IATI European Community Dialogue](https://iatistandard.org/en/news/eu-members-states-and-iati-community-meet-in-brussels/) last week in Brussels.
+On January 20th 2025, the U.S. Government ordered a pause of all foreign assistance pending a review of programmes. At Emergentally, we know that this situation has had significant consequences at the country level and we have been working quietly to support our partners and colleagues to respond to the evolving situation. While respecting the sensitivity and confidentiality of our partners, we wanted to share some ways in which we are responding to the rapidly evolving situation. We hope that this information may help others in thinking through their own response. We presented these ideas at the [IATI European Community Dialogue](https://iatistandard.org/en/news/eu-members-states-and-iati-community-meet-in-brussels/) last week in Brussels.
 
 We are thinking about two ways to respond - in the short term and in the medium term.
 
