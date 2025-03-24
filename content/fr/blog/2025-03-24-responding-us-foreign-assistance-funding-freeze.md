@@ -15,7 +15,7 @@ src="/2025-03-19-brussels-engagement-day.jpg" />
 
 Le 20 janvier 2025, le gouvernement des États-Unis a ordonné une pause de toute l’aide étrangère en attendant un examen des programmes. Chez Emergentally, nous savons que cette situation a eu des conséquences importantes au niveau national et nous avons travaillé discrètement pour aider nos partenaires et collègues à réagir à l’évolution de la situation. Tout en respectant la sensibilité et la confidentialité de nos partenaires, nous voulions partager certaines des mesures que nous avons prises pour répondre à cette situation en constante évolution. Nous espérons que ces informations pourront aider d’autres personnes à réfléchir à leur propre réponse. Nous avons présenté ces idées lors du [dialogue de la communauté européenne de l’IITA](https://iatistandard.org/fr/news/eu-members-states-and-iati-community-meet-in-brussels/) la semaine dernière à Bruxelles.
 
-Nous réfléchissons à deux types de réponses, à court terme et à moyen terme.
+Emergentally réfléchit à deux manières de réagir : à court terme et à moyen terme.
 
 ## Réponse à court terme
 Notre réponse à court terme consiste à **comprendre la nature des financements gelés et des conséquences de ce gel**. En examinant le montant non versé des projets en cours, nous pouvons, grâce aux données de l’IITA, comprendre les versements effectués en 2024 et estimer les versements prévus pour 2025.
