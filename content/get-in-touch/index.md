@@ -5,7 +5,10 @@ For more details or for a demonstration, please get in touch with us.
 <e-row>
   <e-col md="6">
     <h2>Email</h2>
-    <p><a href="mailto:info@emergentally.com">info@emergentally.com</a></p>
+    <p>Mark Brough, Managing Director<br />
+      <a href="mailto:mark.brough@emergentally.com">mark.brough@emergentally.com</a><br />
+      <small><a href="https://keys.openpgp.org/search?q=mark.brough@emergentally.com">PGP Key</a></small>
+    </p>
     <h2>Phone</h2>
     <p><a href="tel:+493061748338">+49 30 6174 8338</a></p>
   </e-col>
