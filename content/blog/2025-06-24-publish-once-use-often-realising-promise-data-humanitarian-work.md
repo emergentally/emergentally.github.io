@@ -1,5 +1,5 @@
 ---
-title: "Publish Once, Use Often: Realising the promise of data in humanitarian work"
+title: "Publish Once, Use Often: Realising the Promise of Data in Humanitarian Work"
 date: 2025-06-24
 description: A new report by Emergentally for ICVA identifies the challenges and opportunities of sharing and using data on NGO activities, and provides recommendations, including on how to meet the needs of local and national actors.
 imgURL: https://emergentally.com/Report_Cover_Advancing-data-transparency-of-ICVA-members.jpg
