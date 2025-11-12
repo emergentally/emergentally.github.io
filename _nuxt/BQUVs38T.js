@@ -1,0 +1,1 @@
+import{_ as s}from"./CaKXoFds.js";import{A as a,o as m,w as n,D as p}from"./cBwlGsfv.js";import"./zDOdZIGY.js";const f={__name:"ECol",props:{md:{type:[String]}},setup(o){const t=o;return(e,c)=>{const r=s;return m(),a(r,{md:t.md},{default:n(()=>[p(e.$slots,"default")]),_:3},8,["md"])}}};export{f as default};
