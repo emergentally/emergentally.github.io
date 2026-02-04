@@ -23,4 +23,4 @@ Pour plus de détails ou pour une démonstration, merci de nous contacter.
 
 ## Détails de nos enregistrements
 
-Emergentally GmbH est inscrite en Allemagne au registre des sociétés de la Cour du district de Berlin (Charlottenburg) sous le numéro HRB 248009. Numéro d’identification fiscale : 29/277/32971. Numéro de TVA : DE358325568. Directeur: Mark Brough. Emergentally GmbH est enregistrée au Kenya auprès du registre des sociétés sous le numéro FC-JDH2DZZ2.
+Emergentally GmbH est inscrite en Allemagne au registre des sociétés de la Cour du district de Berlin (Charlottenburg) sous le numéro HRB 248009 B. Numéro d’identification fiscale : 29/277/32971. Numéro de TVA : DE358325568. Directeur: Mark Brough. Emergentally GmbH est enregistrée au Kenya auprès du registre des sociétés sous le numéro FC-JDH2DZZ2.

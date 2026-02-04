@@ -23,6 +23,6 @@ For more details or for a demonstration, please get in touch with us.
 
 ## Registration details
 
-Emergentally GmbH is registered in Germany with the business registry at the Berlin (Charlottenburg) District Court with registration number HRB 248009. Tax number: 29/277/32971. VAT number: DE358325568. Managing Director: Mark Brough. Emergentally GmbH is registered in Kenya at the Registrar of Companies with registration number FC-JDH2DZZ2.
+Emergentally GmbH is registered in Germany with the business registry at the Berlin (Charlottenburg) District Court with registration number HRB 248009 B. Tax number: 29/277/32971. VAT number: DE358325568. Managing Director: Mark Brough. Emergentally GmbH is registered in Kenya at the Registrar of Companies with registration number FC-JDH2DZZ2.
 
 [Anti-Bribery Policy](/anti-bribery/)
