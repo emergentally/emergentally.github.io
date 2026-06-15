@@ -1,5 +1,9 @@
-# We support emerging economies to address their development challenges.
-
-Founded in 2022, we've worked with a range of governments in Africa and Europe, multilateral agencies, and CSOs. Combining a deep knowledge of development and public financial management, we provide a tailored mixture of software and advisory services.
-
-<e-front-page-box />
+<e-hero />
+<e-partner-ticker />
+<e-impact-stats />
+<e-dashboard-spotlight />
+<e-pull-quote />
+<e-service-cards />
+<e-where-we-work />
+<e-insights-latest />
+<e-cta-demo />

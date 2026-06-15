@@ -1,10 +1,8 @@
 export default defineNuxtConfig({
   components: true,
 
-  // Target: https://go.nuxtjs.dev/config-target
   ssr: true,
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   runtimeConfig: {
     public: {
       title: "Emergentally",
@@ -14,19 +12,17 @@ export default defineNuxtConfig({
     },
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "bootstrap/dist/css/bootstrap.min.css",
+    "bootstrap-vue-next/dist/bootstrap-vue-next.css"
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
 
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     "@nuxt/content",
     "@nuxtjs/i18n",
@@ -58,16 +54,7 @@ export default defineNuxtConfig({
         depth: 2
       }
     },
-    /*
-    defaultLocale: 'en',
-    locales: ['en', 'fr']
-    */
   },
-
-  css: [
-    "bootstrap/dist/css/bootstrap.min.css",
-    "bootstrap-vue-next/dist/bootstrap-vue-next.css"
-  ],
 
   i18n: {
     defaultLocale: 'en',
@@ -75,7 +62,7 @@ export default defineNuxtConfig({
     strategy: "prefix_except_default",
     vueI18nLoader: true,
     fallbackLocale: "en",
-    langDir: "locales",
+    langDir: 'locales/',
     locales: [
       {
         code: 'en',
@@ -90,17 +77,28 @@ export default defineNuxtConfig({
         name: 'Français'
       }
     ],
-    langDir: 'locales/',
-    trailingSlash: 'append'
+    compilation: {
+      strictMessage: false,
+    },
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@import "~/assets/scss/home";\n`
+        }
+      }
+    }
+  },
+
   build: {
   },
 
   router: {
     trailingSlash: true,
   },
+
   nitro: {
     prerender: {
       routes: ['/sitemap.xml', '/who-we-are/', '/get-in-touch/',

@@ -30,8 +30,7 @@
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-              <b-nav-item :to="localePath($t('menuItems.whatWeDo.value'))" class="me-lg-3 fs-5"><font-awesome
-                  :icon="['fas', 'house']" class="me-2" /> {{ $t('menuItems.whatWeDo.text') }}</b-nav-item>
+              <b-nav-item :to="localePath($t('menuItems.whatWeDo.value'))" class="me-lg-3 fs-5">{{ $t('menuItems.whatWeDo.text') }}</b-nav-item>
               <b-nav-item :to="localePath($t('menuItems.whoWeAre.value'))" class="me-lg-3 fs-5">{{
                 $t('menuItems.whoWeAre.text') }}</b-nav-item>
               <b-nav-item :to="localePath($t('menuItems.getInTouch.value'))" class="me-lg-3 fs-5">{{
@@ -39,45 +38,48 @@
               <b-nav-item :to="localePath($t('menuItems.blog.value'))" class="me-lg-3 fs-5">{{ $t('menuItems.blog.text')
               }}</b-nav-item>
             </b-navbar-nav>
-            <b-navbar-nav class="ms-auto mb-2 mb-lg-0 fs-5">
-              <b-nav-item-dropdown :text="$t('selectLanguage')" right id="language">
-                <b-dropdown-item v-for="locale in availableLocales" v-bind:key="locale.code"
-                  :to="switchLocalePath(locale.code)" :active="$i18n.locale == locale.code">
-                  {{ locale.name }}
-                </b-dropdown-item>
-              </b-nav-item-dropdown>
+            <b-navbar-nav class="ms-auto mb-2 mb-lg-0 fs-6 language-links">
+              <b-nav-item v-for="locale in locales" v-bind:key="locale.code"
+                :to="switchLocalePath(locale.code)" :active="$i18n.locale == locale.code">
+                {{ locale.code.toUpperCase() }}
+              </b-nav-item>
             </b-navbar-nav>
           </b-collapse>
         </b-container>
       </b-navbar>
-      <b-container class="pt-md-5 pt-3 p-3 page-body">
+      <b-container class="page-body">
         <slot />
       </b-container>
-    </b-container>
-    <b-container fluid class="footer text-bg-dark">
-      <b-container class="pt-5 pb-5 footer">
-        <footer>
-          <b-row>
-            <b-col>Copyright &copy; Emergentally GmbH. All rights reserved.</b-col>
-            <b-col class="text-end fs-4">
-              <nuxt-link href="https://mastodon.social/@emergentally" class="me-3"><font-awesome
-                  :icon="['fab', 'mastodon']" /></nuxt-link>
-              <nuxt-link href="https://bsky.app/profile/emergentally.bsky.social" class="me-3"><font-awesome
-                  :icon="['fab', 'bluesky']" /></nuxt-link>
-            </b-col>
-          </b-row>
-        </footer>
+      <b-container fluid class="pt-5 pb-5 footer text-bg-dark">
+        <b-container>
+          <footer>
+            <b-row>
+              <b-col>Copyright &copy; Emergentally GmbH. All rights reserved.</b-col>
+              <b-col class="text-end fs-4">
+                <nuxt-link href="https://mastodon.social/@emergentally" class="me-3"><font-awesome
+                    :icon="['fab', 'mastodon']" /></nuxt-link>
+                <nuxt-link href="https://bsky.app/profile/emergentally.bsky.social" class="me-3"><font-awesome
+                    :icon="['fab', 'bluesky']" /></nuxt-link>
+              </b-col>
+            </b-row>
+          </footer>
+        </b-container>
       </b-container>
     </b-container>
   </div>
 </template>
 <style>
+a {
+  transition: all 0.3s;
+}
 a.nav-link {
   border-bottom: 2px solid transparent;
 }
-
+a.nav-link.router-link-active {
+  border-bottom: 2px solid #448822;
+}
 a.nav-link:hover {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #448822;
 }
 
 hr {
@@ -122,10 +124,6 @@ h1 {
   src: url(/tangosans/TangoSans.ttf);
 }
 
-.primary-navbar {
-  border-bottom: 1px solid #dddddd;
-}
-
 .primary-navbar.bg-dark {
   background-color: #000000 !important;
 }
@@ -133,6 +131,15 @@ h1 {
 .primary-navbar.bg-dark a,
 .primary-navbar.bg-dark button {
   color: #ffffff !important;
+}
+
+.primary-navbar .language-links a {
+  border-bottom: 2px solid transparent;
+  color: #b6b3a4 !important;
+}
+
+.primary-navbar .language-links a.active {
+  color: #fff !important;
 }
 
 .w-33 {
@@ -189,8 +196,8 @@ h1 {
 }
 
 .header-home .jumbotron {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .header-home .jumbotron .lead {
@@ -272,7 +279,6 @@ html {
 
 /* NB this doesn't take into account the home page, but that is normally OK anyway */
 .page-body {
-  margin-bottom: 20px;
   min-height: calc(100vh - 8.25rem - 6rem - 7rem + 1px);
   /* 100% - header - navbar - footer */
 }

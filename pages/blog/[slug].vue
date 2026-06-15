@@ -12,11 +12,13 @@
           <Meta name="og:image" :content="doc?.imgURL" />
           <Meta name="twitter:image:alt" :content="doc?.imgAlt" />
         </Head>
-        <h1>{{ doc.title }}</h1>
-        <h5 class="text-muted">{{ formatDate(doc.date) }}</h5>
-        <div class="blog-article">
-          <ContentRendererMarkdown :value="doc" />
-          <PreviousNextBlog :date="doc.date" />
+        <div class="mt-4 mb-4">
+          <h1>{{ doc.title }}</h1>
+          <h5 class="text-muted">{{ formatDate(doc.date) }}</h5>
+          <div class="blog-article">
+            <ContentRendererMarkdown :value="doc" />
+            <PreviousNextBlog :date="doc.date" />
+          </div>
         </div>
       </ContentRenderer>
     </ContentDoc>
