@@ -1,0 +1,83 @@
+// ─── Colour tokens ─────────────────────────────────────────────────────────
+$forest:        #1b2a14;  // hero / featured-card backgrounds
+$near-black:    #14140f;  // body text, dark sections
+$green-mid:     #448822;  // buttons, rule lines, pips
+$green-bright:  #448822;  // CTA fills, accent highlights
+$green-kicker:  #2f6217;  // kicker text, section links
+$green-light:   #b6d496;  // hero kicker text, pull-quote cite
+$cream:         #f3efe2;  // page / section background
+$border-warm:   #d9d6cb;  // default warm-grey border
+$body-grey:     #2a2a22;  // body text on light
+$grey-mid:      #5d5d52;  // captions, secondary text
+$grey-muted:    #b6b3a4;  // muted text on dark
+$grey-lighter:  #d2cfbf;  // text on dark cards
+$border-light:  #e7e4d8;  // subtle / internal borders
+
+// ─── Typography ────────────────────────────────────────────────────────────
+$tango: "TangoSans", sans-serif;
+
+// ─── Layout ────────────────────────────────────────────────────────────────
+$inner-max: 1440px;
+$pad-x:     56px;
+$pad-x-sm:  24px;
+$radius:    2px;
+
+// ─── Breakpoints ───────────────────────────────────────────────────────────
+$bp-md: 768px;
+$bp-lg: 992px;
+
+// ─── Mixins ────────────────────────────────────────────────────────────────
+
+// Make a section break out of a constrained wrapper to full viewport width.
+@mixin full-bleed {
+  margin-left:  calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  width:        100vw;
+}
+
+// Centred content container with max-width and responsive horizontal padding.
+@mixin inner-container {
+  max-width: $inner-max;
+  margin:    0 auto;
+  padding:   0 $pad-x;
+  @media (max-width: $bp-lg) { padding: 0 $pad-x-sm; }
+}
+
+// Uppercase micro-label with a leading green rule line.
+@mixin kicker-line($color: $green-kicker, $fsize: 12px, $spacing: 0.22em) {
+  font-family:    $tango;
+  font-size:      $fsize;
+  letter-spacing: $spacing;
+  text-transform: uppercase;
+  color:          $color;
+  display:        flex;
+  align-items:    center;
+  gap:            12px;
+  &::before {
+    content:     "";
+    flex-shrink: 0;
+    width:       28px;
+    height:      2px;
+    background:  $green-mid;
+  }
+}
+
+// Base button — $size: md (16px/24px pad) or sm (14px/20px pad).
+@mixin btn-base($size: md) {
+  display:         inline-flex;
+  align-items:     center;
+  gap:             10px;
+  text-decoration: none;
+  font-weight:     500;
+  border-radius:   $radius;
+  border:          1.5px solid transparent;
+  font-family:     inherit;
+  @if $size == sm {
+    font-size: 14px;
+    padding:   14px 20px;
+  } @else {
+    font-size: 15px;
+    padding:   16px 24px;
+  }
+  &:hover { opacity: 0.92; }
+}
