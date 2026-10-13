@@ -293,6 +293,10 @@ html {
   font-family: tangoSans;
 }
 
+.blog-article h3 {
+  font-style: italic;
+}
+
 .page-body h2 a {
   color: #000000;
   text-decoration: none;
