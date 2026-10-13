@@ -1,0 +1,1 @@
+import{o,z as a,w as r,B as s}from"./BGAls1sY.js";import{_}from"./DgWQ0S2O.js";const m={__name:"ECardText",props:{},setup(n){return(t,c)=>{const e=_;return o(),a(e,null,{default:r(()=>[s(t.$slots,"default")]),_:3})}}};export{m as default};

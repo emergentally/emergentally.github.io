@@ -1,0 +1,1 @@
+import{o as r,z as s,w as c,B as n}from"./BGAls1sY.js";import{a as p}from"./DgWQ0S2O.js";const m={__name:"ECardGroup",props:{deck:{type:[Boolean]}},setup(o){const e=o;return(t,d)=>{const a=p;return r(),s(a,{deck:e.deck},{default:c(()=>[n(t.$slots,"default")]),_:3},8,["deck"])}}};export{m as default};
