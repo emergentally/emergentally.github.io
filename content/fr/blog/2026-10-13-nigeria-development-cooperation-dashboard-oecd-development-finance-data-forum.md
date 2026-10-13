@@ -13,7 +13,7 @@ src="https://emergentally.com/2026-10-08-development-finance-data-forum.png" alt
 <br />S.E. Dr Doris Uzoka-Anite, Ministre d’État au Budget et à la Planification économique, République fédérale du Nigeria
 </div>
 
-Depuis 2024, Emergentally est fier de collaborer étroitement avec le ministère fédéral du Budget et de la Planification économique du Nigeria pour développer le « Nigeria Development Cooperation Dashboard ». En reconnaissance du rôle de premier plan joué par le Nigeria pour garantir une gestion transparente des ressources de développement, S.E. Dr Doris Uzoka-Anite a été invitée à prononcer le discours d’ouverture du Forum de l’OCDE sur les données de financement du développement (« Development Finance Data Forum »), à Paris, le 8 octobre 2026.
+Depuis 2024, Emergentally est fier de collaborer étroitement avec le ministère fédéral du Budget et de la Planification économique du Nigeria pour développer le « [Nigeria Development Cooperation Dashboard](https://ndcd.ng/) ». En reconnaissance du rôle de premier plan joué par le Nigeria pour garantir une gestion transparente des ressources de développement, S.E. Dr Doris Uzoka-Anite a été invitée à prononcer le discours d’ouverture du Forum de l’OCDE sur les données de financement du développement (« Development Finance Data Forum »), à Paris, le 8 octobre 2026.
 
 ## Le Dashboard reconnu comme un instrument pratique de gestion de la coopération au développement
 
