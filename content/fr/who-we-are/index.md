@@ -1,3 +1,7 @@
+---
+description: Découvrez les économistes, spécialistes en GFP et développeurs d’Emergentally, qui travaillent avec les fonctionnaires, les décideurs politiques et les partenaires de développement pour relever les défis du développement.
+---
+
 # À propos
 
 Emergentally travaille avec des fonctionnaires, des décideurs politiques et des partenaires de développement pour répondre à leurs défis de développement. Nous développons une compréhension profonde de l'économie politique des pays dans lesquels nous travaillons, que nous combinons avec des compétences techniques, de données et de développement de logiciels.

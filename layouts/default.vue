@@ -9,9 +9,9 @@
       <Meta property="og:image" :content="config.public.twitterImage" />
       <Meta name="twitter:image:alt" :content="config.public.twitterImageAlt" />
       <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="description" :content="config.public.description" />
-      <Meta name="twitter:description" :content="config.public.description" />
-      <Meta property="og:description" :content="config.public.description" />
+      <Meta name="description" :content="$t('meta.description')" />
+      <Meta name="twitter:description" :content="$t('meta.description')" />
+      <Meta property="og:description" :content="$t('meta.description')" />
       <Meta property="og:type" content="website" />
       <Meta property="og:site_name" :content="config.public.title" />
     </Head>
@@ -343,6 +343,17 @@ const config = useRuntimeConfig();
 const { locale, locales } = useI18n();
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
+
+// <html lang>, canonical, og:url, og:locale and hreflang links to the other language
+const i18nHead = useLocaleHead({ addSeoAttributes: true });
+// The site's URLs end in a slash; i18n generates them without one
+const withSlash = url => url && !url.endsWith('/') ? `${url}/` : url;
+useHead(() => ({
+  htmlAttrs: { lang: i18nHead.value.htmlAttrs?.lang },
+  link: (i18nHead.value.link || []).map(l => ({ ...l, href: withSlash(l.href) })),
+  meta: (i18nHead.value.meta || []).map(m =>
+    m.property === 'og:url' ? { ...m, content: withSlash(m.content) } : m)
+}));
 const route = useRoute();
 
 const availableLocales = computed(() => {
