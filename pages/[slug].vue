@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentDoc v-slot="{doc}" :head="false">
+    <EContentDoc v-slot="{doc}">
       <Head>
         <Title>{{ doc?.title }} | {{config.public.title}}</Title>
         <Meta name="twitter:title" :content="`${doc?.title} | ${config.public.title}`" />
@@ -9,7 +9,7 @@
       <div class="mt-4 mb-4">
         <ContentRenderer :value="doc" :head="false" />
       </div>
-    </ContentDoc>
+    </EContentDoc>
   </div>
 </template>
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <section class="e-stats">
+  <section ref="section" class="e-stats">
     <div class="inner">
       <div class="first">
         <div class="kicker">{{ $t('home.stats.kicker') }}</div>
@@ -7,7 +7,10 @@
         <p>{{ $t('home.stats.lede') }}</p>
       </div>
       <div v-for="(s, i) in stats" :key="i" class="cell">
-        <div class="n">{{ s.value }}<small v-if="s.unit">{{ s.unit }}</small></div>
+        <div class="n">
+          <span class="visually-hidden">{{ s.value }}{{ s.unit }}</span>
+          <span aria-hidden="true">{{ shown[i] ?? s.value }}<small v-if="s.unit">{{ s.unit }}</small></span>
+        </div>
         <div class="label">
           {{ s.label }}
           <small v-if="s.note">{{ s.note }}</small>
@@ -27,6 +30,51 @@ const stats = computed(() =>
     note: s.note ? rt(s.note) : ''
   }))
 );
+
+// Count each figure up from 0 the first time the stats scroll into view.
+// Screen readers get the final figure from a visually hidden copy.
+// The server-rendered HTML always has the final figures, so without
+// JavaScript (or with reduced motion) nothing changes.
+const section = ref(null);
+const shown = ref([]);
+let observer;
+const DURATION = 1200;
+
+// "75.9" or "75,9" -> formatter that keeps the same decimal places and mark
+function counter(value) {
+  const match = value.match(/^(\d+)(?:([.,])(\d+))?$/);
+  if (!match) return null;
+  const [, , mark = '.', decimals = ''] = match;
+  const target = parseFloat(value.replace(',', '.'));
+  return t => (target * t).toFixed(decimals.length).replace('.', mark);
+}
+
+function animate() {
+  const counters = stats.value.map(s => counter(s.value));
+  const start = performance.now();
+  const step = now => {
+    const progress = Math.min((now - start) / DURATION, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    shown.value = counters.map((c, i) => c ? c(eased) : stats.value[i].value);
+    if (progress < 1) requestAnimationFrame(step);
+    else shown.value = [];
+  };
+  requestAnimationFrame(step);
+}
+
+onMounted(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduceMotion || !('IntersectionObserver' in window) || !section.value) return;
+  shown.value = stats.value.map(s => counter(s.value)?.(0) ?? s.value);
+  observer = new IntersectionObserver(entries => {
+    if (entries.some(e => e.isIntersecting)) {
+      observer.disconnect();
+      animate();
+    }
+  }, { threshold: 0.4 });
+  observer.observe(section.value);
+});
+onBeforeUnmount(() => observer?.disconnect());
 </script>
 
 <style lang="scss" scoped>

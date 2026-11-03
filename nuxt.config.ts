@@ -103,7 +103,9 @@ export default defineNuxtConfig({
     prerender: {
       routes: ['/sitemap.xml', '/who-we-are/', '/get-in-touch/',
         '/fr/who-we-are/', '/fr/get-in-touch/', '/development-dashboard/',
-        '/fr/development-dashboard/', '/', '/fr/']
+        '/fr/development-dashboard/', '/', '/fr/',
+        '/who-we-are/jobs/data-platform-support-specialist/',
+        '/fr/who-we-are/jobs/data-platform-support-specialist/']
     }
   },
 

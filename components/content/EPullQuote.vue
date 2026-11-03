@@ -46,9 +46,13 @@ const bg = computed(() =>
 .quote {
   position: relative;
   z-index: 1;
-  max-width: 880px;
-  padding: 64px max(56px, calc(50vw - 720px + 56px));
+  /* Left padding lines the quote up with the page content on wide screens;
+     the text width is capped on blockquote/cite so the padding doesn't squash it */
+  padding: 64px 56px 64px max(56px, calc(50vw - 720px + 56px));
   color: #fff;
+}
+blockquote, cite {
+  max-width: 1100px;
 }
 .mark {
   font-family: "TangoSans"; font-size: 96px;

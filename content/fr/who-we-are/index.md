@@ -2,6 +2,8 @@
 
 Emergentally travaille avec des fonctionnaires, des décideurs politiques et des partenaires de développement pour répondre à leurs défis de développement. Nous développons une compréhension profonde de l'économie politique des pays dans lesquels nous travaillons, que nous combinons avec des compétences techniques, de données et de développement de logiciels.
 
+:e-hiring-notice
+
 <EBio
 name="Mark Brough"
 rounded="circle"

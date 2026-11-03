@@ -13,6 +13,7 @@
       <Meta name="twitter:description" :content="config.public.description" />
     </Head>
     <b-container fluid class="p-0">
+      <e-hiring-notice v-if="isHome" variant="banner" />
       <div :class="pageClass">
         <b-container class="header-container" style="vertical-align: bottom;">
           <div class="rounded-3 jumbotron">
@@ -31,7 +32,8 @@
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
               <b-nav-item :to="localePath($t('menuItems.whatWeDo.value'))" class="me-lg-3 fs-5">{{ $t('menuItems.whatWeDo.text') }}</b-nav-item>
-              <b-nav-item :to="localePath($t('menuItems.whoWeAre.value'))" class="me-lg-3 fs-5">{{
+              <b-nav-item :to="localePath($t('menuItems.whoWeAre.value'))" class="me-lg-3 fs-5"
+                :link-class="{ 'router-link-active': isWhoWeAreSection }">{{
                 $t('menuItems.whoWeAre.text') }}</b-nav-item>
               <b-nav-item :to="localePath($t('menuItems.getInTouch.value'))" class="me-lg-3 fs-5">{{
                 $t('menuItems.getInTouch.text') }}</b-nav-item>
@@ -54,7 +56,8 @@
         <b-container>
           <footer>
             <b-row>
-              <b-col>Copyright &copy; Emergentally GmbH. All rights reserved.</b-col>
+              <b-col>Copyright &copy; Emergentally GmbH. All rights reserved.<br />
+                <small class="text-white-50">{{ $t('footer.trademark') }}</small></b-col>
               <b-col class="text-end fs-4">
                 <nuxt-link href="https://mastodon.social/@emergentally" class="me-3"><font-awesome
                     :icon="['fab', 'mastodon']" /></nuxt-link>
@@ -343,8 +346,14 @@ const availableLocales = computed(() => {
   return (locales.value).filter(i => i.code !== locale.value)
 })
 
+const isHome = computed(() => !!(route.name && route.name.startsWith("index")))
+
+// Pages nested under Who we are (e.g. job adverts) are separate routes, so
+// highlight the menu item by path instead
+const isWhoWeAreSection = computed(() => route.path.startsWith(localePath('/who-we-are/')))
+
 const pageClass = computed(() => {
-  if (route.name && route.name.startsWith("index")) {
+  if (isHome.value) {
     return 'header header-home'
   }
   return 'header '

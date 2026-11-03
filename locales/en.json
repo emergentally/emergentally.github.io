@@ -65,7 +65,7 @@
       "lede": "Outcomes we’ve contributed to, working alongside in-country teams. Always with the people doing the actual work.",
       "items": [
         {
-          "value": "49.5",
+          "value": "75.9",
           "unit": "bn",
           "label": "Managed across three countries",
           "note": "USD Disbursements"
@@ -77,7 +77,7 @@
           "note": "From manual quarterly reporting"
         },
         {
-          "value": "162",
+          "value": "350",
           "label": "NGO-reported activities",
           "note": "Liberia’s new NGO Registration and Accreditation Module"
         }
@@ -135,7 +135,7 @@
             "Data analysis & strategy"
           ],
           "link": "/who-we-are/",
-          "linkLabel": "Past engagements"
+          "linkLabel": "Meet our experts"
         },
         {
           "kicker": "Capacity",
@@ -194,7 +194,7 @@
       "ctaPrimary": "Book a free demo",
       "ctaSecondary": "See it in production",
       "badgeWorldFirstLabel": "World-first",
-      "badgeWorldFirstBody": "The only system in the world that automatically updates financial data from donors via IATI.",
+      "badgeWorldFirstBody": "The only country system in the world that automatically updates financial data from donors via IATI on an ongoing basis.",
       "badgeUsersTitle": "Already being used by",
       "badgeUsersBody": "Liberia’s Ministry of Finance and Development Planning, Nigeria’s Federal Ministry of Budget and Economic Planning, and more."
     },
@@ -203,15 +203,15 @@
         {
           "country": "Liberia",
           "title": "Liberia Development Dashboard",
-          "url": "https://development.mfdp.lr",
-          "urlLabel": "development.mfdp.lr",
+          "url": "https://development.mfdp.gov.lr",
+          "urlLabel": "development.mfdp.gov.lr",
           "image": "/2026-liberia-development-dashboard.png",
           "subtitle": "Ministry of Finance & Development Planning",
           "status": "Live"
         },
         {
           "country": "Nigeria",
-          "title": "Development Cooperation Dashboard",
+          "title": "Nigeria Development Cooperation Dashboard",
           "url": "https://ndcd.ng",
           "urlLabel": "ndcd.ng",
           "image": "/2026-nigeria-development-cooperation-dashboard.png",
@@ -225,7 +225,7 @@
       "headline": "Built with and for the experts.",
       "paragraphs": [
         "Originally working with <b>Liberia's Ministry of Finance and Development Planning</b>, we developed the Liberia Development Dashboard — an innovative system which transforms the management of aid and public investment in the country. The system is now also used by <b>Nigeria's Federal Ministry of Budget and Economic Planning</b>.",
-        "The Dashboard is currently <b>the only system in the world</b> which automatically updates financial data from donors — significantly increasing data quality and the sustainability of the system. It's lightweight and user friendly, but has a wide range of features to meet the needs of emerging economies."
+        "The Dashboard is currently <b>the only country system in the world</b> which automatically updates financial data from donors on an ongoing basis — significantly increasing data quality and the sustainability of the system. It's lightweight and user friendly, but has a wide range of features to meet the needs of emerging economies."
       ]
     },
     "pillars": {
@@ -261,7 +261,7 @@
           "kicker": "04 · World-first IATI",
           "title": "Automatically updating financial data.",
           "body": "For donor-financed projects, the world's most advanced IATI integration makes it possible to keep financial data up to date automatically — substantially improving data quality and reducing the burden of data collection.",
-          "signal": "Only system worldwide",
+          "signal": "Only country system worldwide",
           "image": "/liberia-project-dashboard.png",
           "caption": "Auto-updated donor data · Liberia"
         },
@@ -274,8 +274,8 @@
       ]
     },
     "pullQuote": {
-      "text": "The Dashboard has allowed us to shift the conversation with partners from inputs to alignment.",
-      "attribution": "— Henry Asor, Nigeria’s Federal Ministry of Budget and Economic Planning"
+      "text": "The Nigeria Development Cooperation Dashboard is evolving beyond a conventional database. It is becoming a practical instrument for planning, coordination, transparency and accountability in development cooperation.",
+      "attribution": "— H.E. Dr. Doris Uzoka-Anite, Minister of State for Budget and Economic Planning, Federal Republic of Nigeria"
     },
     "features": {
       "kicker": "Additional features",
@@ -284,7 +284,7 @@
       "items": [
         { "tag": "IFMIS",         "title": "IFMIS integration",        "body": "Upload data from IFMIS, and download in the format required for the budget process." },
         { "tag": "Co-financing",  "title": "Counterpart funding",      "body": "Capture government counterpart funding commitments alongside donor flows." },
-        { "tag": "Interoperability",       "title": "Outputs, outcomes, impact","body": "Data collection and visualisation for results information at every level." },
+        { "tag": "Results",       "title": "Outputs, outcomes, impact","body": "Data collection and visualisation for results information at every level." },
         { "tag": "Dashboards",    "title": "Slice by anything",        "body": "By funder, location (state, county), sector, aligned ministry, or national development plan pillar." },
         { "tag": "Reports",       "title": "Performance reporting",    "body": "Collect and visualise project performance, disbursement rates, and alignment to the national development plan." },
         { "tag": "Excel and APIs",         "title": "Export, import, and interoperability",          "body": "Export to Excel for summary or pivot analysis. Import via spreadsheet templates. APIs for deeper integration." }
@@ -304,5 +304,15 @@
         "No commitment, no installation, no sales follow-up loop"
       ]
     }
+  },
+  "footer": {
+    "trademark": "Emergentally® is a registered trade mark in the European Union."
+  },
+  "jobs": {
+    "hiring": "We’re hiring",
+    "intro": "We’re looking for someone based in Kenya to support the government officials and development partners who use our data platforms, run training, and follow up on data quality.",
+    "roleSummary": "Data Platform Support & Engagement Specialist, Nairobi — apply by {date}",
+    "viewRole": "View the role",
+    "closed": "Applications for this role have closed."
   }
 }

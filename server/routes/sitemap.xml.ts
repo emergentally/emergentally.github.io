@@ -9,6 +9,8 @@ export default defineEventHandler(async (event) => {
   })
 
   for (const doc of docs) {
+    // Job adverts are noindex, so keep them out of the sitemap
+    if (doc._path?.startsWith('/who-we-are/jobs/')) continue
     sitemap.write({
       url: doc._path,
       changefreq: 'monthly'
