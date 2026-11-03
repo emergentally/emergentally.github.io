@@ -1,3 +1,7 @@
+---
+description: Meet Emergentally’s economists, PFM specialists and software developers, who work with civil servants, policy-makers and development partners to address development challenges.
+---
+
 # Who we are
 
 Emergentally works with civil servants, policy-makers and Development Partners to address their development challenges. We develop a deep understanding of the political economy of the countries we work in, which we combine with technical, data, and software development skills.

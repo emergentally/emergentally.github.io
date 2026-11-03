@@ -287,6 +287,11 @@
     }
   },
   "untranslated": "Cette page est publiée uniquement en anglais.",
+  "meta": {
+    "description": "Le développement fondé sur les données pour les économies émergentes.",
+    "homeDescription": "Une petite équipe d’économistes, de spécialistes en GFP et d’ingénieurs qui fournit des logiciels et des services de conseil aux ministères, agences de développement et OSC des économies émergentes.",
+    "developmentDashboardDescription": "Un logiciel qui aide les ministères à gérer l’aide et l’investissement public — le seul système national au monde à mettre à jour automatiquement et en continu les données financières des bailleurs via IATI."
+  },
   "footer": {
     "trademark": "Emergentally® est une marque déposée dans l’Union européenne."
   },

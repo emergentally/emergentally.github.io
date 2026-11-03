@@ -57,6 +57,8 @@ export default defineNuxtConfig({
   },
 
   i18n: {
+    // Used for canonical, og:url and hreflang links
+    baseUrl: 'https://emergentally.com',
     defaultLocale: 'en',
     lazy: true,
     strategy: "prefix_except_default",

@@ -305,6 +305,11 @@
       ]
     }
   },
+  "meta": {
+    "description": "Data-driven development for emerging economies.",
+    "homeDescription": "A small team of economists, PFM specialists and engineers providing software and advisory services to ministries, development agencies and CSOs in emerging economies.",
+    "developmentDashboardDescription": "Software that helps ministries manage aid and public investment — the only country system in the world that automatically updates donor financial data via IATI on an ongoing basis."
+  },
   "footer": {
     "trademark": "Emergentally® is a registered trade mark in the European Union."
   },
