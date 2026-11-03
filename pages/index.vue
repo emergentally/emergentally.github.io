@@ -15,6 +15,7 @@
         <e-partner-ticker />
         <e-impact-stats />
         <e-dashboard-spotlight />
+        <e-pull-quote image="none" />
         <e-service-cards />
         <e-insights-latest />
         <e-cta-demo />

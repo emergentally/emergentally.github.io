@@ -2,6 +2,8 @@
 
 Emergentally works with civil servants, policy-makers and Development Partners to address their development challenges. We develop a deep understanding of the political economy of the countries we work in, which we combine with technical, data, and software development skills.
 
+:e-hiring-notice
+
 <EBio
 name="Mark Brough"
 rounded="circle"

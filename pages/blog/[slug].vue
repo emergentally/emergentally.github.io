@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ContentDoc v-slot="{doc}" :head="false">
+    <EContentDoc v-slot="{doc}">
       <ContentRenderer :value="doc" :head="false">
         <Head>
           <Title>{{ doc?.title }} | {{config.public.title}}</Title>
@@ -21,7 +21,7 @@
           </div>
         </div>
       </ContentRenderer>
-    </ContentDoc>
+    </EContentDoc>
   </div>
 </template>
 <script setup>

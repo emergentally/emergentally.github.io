@@ -38,7 +38,7 @@
     "advisoryServicesItems": [
       "Analyses et conseils économiques",
       "Études de faisabilité",
-      "Évaluations des besoins et collecte des besoins",
+      "Évaluations des besoins et recueil des exigences",
       "Prototypage rapide et maquettes",
       "Analyse et gestion des données"
     ]
@@ -53,10 +53,10 @@
       "kicker": "Sur le terrain · 13 pays · une équipe de 4",
       "headline": "Aux côtés des {emphasis} pour relever leurs défis en matière de développement.",
       "headlineEmphasis": "économies émergentes",
-      "lede": "Emergentally est une petite équipe d’économistes, de spécialistes en GFP et d’ingénieurs intégrée aux ministères des finances, bailleurs et OSC, du Libéria au Nigeria en passant par la Côte d’Ivoire. Nous livrons des logiciels, et nous livrons des conseils.",
+      "lede": "Emergentally est une petite équipe d’économistes, de spécialistes en GFP et d’ingénieurs intégrée aux ministères, agences de développement et OSC, du Libéria au Nigeria, en passant par la Côte d’Ivoire et l’Éthiopie. Nous proposons des logiciels et des services de conseil.",
       "ctaPrimary": "Découvrir le Development Dashboard",
       "ctaSecondary": "Nous contacter",
-      "imageCaption": "l’atelier pour l’Afrique de l’Ouest francophone · juin 2025"
+      "imageCaption": "Atelier Afrique de l’Ouest · juin 2025"
     },
     "ticker": {
       "label": "Expérience",
@@ -74,25 +74,25 @@
       "headline": "Des avancées mesurables en transparence, capacité et confiance.",
       "lede": "Des résultats auxquels nous avons contribué, aux côtés des équipes des pays. Toujours avec les personnes qui font réellement le travail.",
       "items": [
-        { "value": "49.5", "unit": "bn", "label": "gérés dans trois pays", "note": "Versements en USD" },
-        { "value": "100", "unit": "%", "label": "des données financières des partenaires du Nigeria sont désormais transmises automatiquement via l'IATI", "note": "Abandon du système de rapports manuels" },
-        { "value": "162", "label": "Activités déclarées par les ONG", "note": "Le nouveau module d'enregistrement et d'accréditation des ONG au Libéria" }
+        { "value": "75,9", "unit": "Md", "label": "gérés dans trois pays", "note": "Versements en USD" },
+        { "value": "100", "unit": "%", "label": "des données financières des partenaires du Nigeria sont désormais transmises automatiquement via l'IATI", "note": "Au lieu de rapports trimestriels manuels" },
+        { "value": "350", "label": "Activités déclarées par les ONG", "note": "Le nouveau module d'enregistrement et d'accréditation des ONG au Libéria" }
       ]
     },
     "dashboard": {
-      "kicker": "Le produit phare",
-      "headline": "Le système de gestion de l’aide le plus simple et le plus puissant au monde.",
+      "kicker": "Notre produit phare",
+      "headline": "Le système de gestion du développement le plus simple et le plus puissant au monde.",
       "badgeTitle": "Premier au monde",
-      "badgeBody": "Le seul Dashboard à se mettre à jour automatiquement depuis les flux IATI des bailleurs.",
+      "badgeBody": "Le seul système national à se mettre à jour automatiquement et en continu depuis les flux IATI des bailleurs.",
       "imageAlt": "Liberia Development Dashboard",
       "imageCaption": "Liberia Development Dashboard · development.mfdp.gov.lr",
       "ctaPrimary": "Réserver une démo gratuite",
       "ctaSecondary": "Études de cas",
       "features": [
-        { "title": "Données bailleurs automatiques", "body": "L’intégration IATI en direct maintient les données financières à jour — le seul Dashboard au monde à le faire." },
+        { "title": "Données bailleurs automatiques", "body": "L’intégration IATI en direct maintient les données financières à jour — le seul système national au monde à le faire actuellement." },
         { "title": "Conçu pour la GFP", "body": "Import IFMIS, export au format budget, suivi des contreparties nationales." },
         { "title": "Gestion axée sur les résultats", "body": "Capturez extrants, effets et impacts ; signalez les projets à faible décaissement ; suivez la mise en œuvre du plan national de développement." },
-        { "title": "Rapide pour les fonctionnaires", "body": "Interface légère et conviviale, construite avec ceux qui font le travail." },
+        { "title": "Rapide pour les fonctionnaires et les techniciens", "body": "Interface légère et conviviale, construite avec ceux qui font le travail." },
         { "title": "Suivi des ONG", "body": "Module intégré d’enregistrement, d’accréditation et de rapports pour les ONG." },
         { "title": "Adapté aux besoins sectoriels", "body": "S’intègre avec DHIS2 et visualise les plans stratégiques sectoriels." }
       ]
@@ -103,8 +103,8 @@
     },
     "services": {
       "kicker": "Ce que nous faisons",
-      "headline": "Deux pratiques. Les mêmes mains. Conçues pour se renforcer mutuellement.",
-      "lede": "Nous associons logiciels en production et appui-conseil intégré. Ce que nous apprenons dans les ministères façonne le Dashboard ; ce que nous livrons dans le Dashboard affine le conseil. Les engagements vont du diagnostic de deux semaines à un soutien pluriannuel.",
+      "headline": "Deux approches, conçues pour se renforcer mutuellement.",
+      "lede": "Nous associons logiciels en production et appui-conseil intégré. Ce que nous apprenons sur le terrain façonne le Dashboard ; ce que nous livrons dans le Dashboard affine nos conseils. Les engagements vont d’évaluations ponctuelles et d’études de faisabilité à un soutien pluriannuel.",
       "items": [
         {
           "kicker": "Produit · Phare",
@@ -118,15 +118,15 @@
         {
           "kicker": "Conseil",
           "title": "Services de conseil",
-          "body": "Appui intégré pour ministères des finances, bailleurs et OSC.",
+          "body": "Appui intégré pour les ministères des finances, les partenaires de développement et les OSC.",
           "bullets": ["Analyse et conseil économiques", "Études de faisabilité", "Prototypage rapide", "Analyse et stratégie des données"],
           "link": "/fr/who-we-are/",
-          "linkLabel": "Engagements passés"
+          "linkLabel": "Rencontrez nos experts"
         },
         {
           "kicker": "Capacité",
           "title": "Renforcement des capacités",
-          "body": "Ateliers et coaching pour que les systèmes restent utiles.",
+          "body": "Ateliers et formations pour que les systèmes et les données restent utiles sur le long terme.",
           "bullets": ["Ateliers d’utilisation des données IATI", "Formation des fonctionnaires", "Guides et documentation", "Livraison FR / EN"],
           "link": "/fr/get-in-touch/",
           "linkLabel": "Demander un atelier"
@@ -135,7 +135,7 @@
     },
     "where": {
       "kicker": "Où nous travaillons",
-      "headline": "Engagements longs. Contexte réel.",
+      "headline": "Des engagements longs, ancrés dans le contexte.",
       "lede": "Notre équipe est basée en Afrique et en Europe. Le travail couvre des contextes anglophones et francophones, des États fragiles et des économies à revenu intermédiaire en croissance rapide, et est toujours porté par les institutions avec lesquelles nous travaillons.",
       "mapPlaceholderTitle": "Carte · espace réservé",
       "mapPlaceholderNote": "À remplacer par une vraie carte statique (Mapbox, MapLibre ou SVG) mettant en évidence les pays actifs et passés.",
@@ -162,21 +162,21 @@
       "body": "Nous préparerons une démonstration gratuite à partir des données IATI de votre pays — sans engagement, sans installation. Environ 45 minutes.",
       "primary": "Réserver une démo",
       "secondary": "Envoyer un courriel à Mark",
-      "teamTitle": "Une petite équipe expérimentée.",
+      "teamTitle": "Vous rencontrerez une petite équipe sympathique.",
       "teamBody": "Économistes, spécialistes en GFP et ingénieurs — sans intermédiaires. Berlin et Nairobi."
     }
   },
   "developmentDashboard": {
     "hero": {
       "crumb": "Development Dashboard",
-      "kicker": "Le produit phare",
+      "kicker": "Notre produit phare",
       "headline": "Development Dashboard.",
-      "lede": "Le système de gestion du développement le plus simple et le plus puissant au monde — conçu avec les fonctionnaires, utilisé par les ministères des finances pour gérer l'aide et l'investissement public.",
+      "lede": "Le système de gestion du développement le plus simple et le plus puissant au monde — conçu avec les fonctionnaires, utilisé par les ministères et les agences pour gérer l'aide et l'investissement public.",
       "ctaPrimary": "Réserver une démo gratuite",
       "ctaSecondary": "Voir en production",
       "badgeWorldFirstLabel": "Première mondiale",
-      "badgeWorldFirstBody": "Le seul système au monde à mettre à jour automatiquement les données financières des bailleurs via IATI.",
-      "badgeUsersTitle": "En production avec",
+      "badgeWorldFirstBody": "Le seul système national au monde à mettre à jour automatiquement et en continu les données financières des bailleurs via IATI.",
+      "badgeUsersTitle": "Déjà utilisé par",
       "badgeUsersBody": "Le Ministère des Finances et de la Planification du Développement du Libéria, le Ministère fédéral du Budget et de la Planification économique du Nigeria, et d'autres."
     },
     "showcase": {
@@ -184,15 +184,15 @@
         {
           "country": "Libéria",
           "title": "Liberia Development Dashboard",
-          "url": "https://development.mfdp.lr",
-          "urlLabel": "development.mfdp.lr",
+          "url": "https://development.mfdp.gov.lr",
+          "urlLabel": "development.mfdp.gov.lr",
           "image": "/2026-liberia-development-dashboard.png",
           "subtitle": "Ministère des Finances et de la Planification du Développement",
           "status": "En cours"
         },
         {
           "country": "Nigeria",
-          "title": "Development Cooperation Dashboard",
+          "title": "Nigeria Development Cooperation Dashboard",
           "url": "https://ndcd.ng",
           "urlLabel": "ndcd.ng",
           "image": "/2026-nigeria-development-cooperation-dashboard.png",
@@ -206,7 +206,7 @@
       "headline": "Construit avec et pour les experts.",
       "paragraphs": [
         "À l'origine, en travaillant avec le <b>Ministère des Finances et de la Planification du Développement du Libéria</b>, nous avons développé le Liberia Development Dashboard — un système novateur qui transforme la gestion de l'aide et de l'investissement public dans le pays. Le système est aujourd'hui également utilisé par le <b>Ministère fédéral du Budget et de la Planification économique du Nigeria</b>.",
-        "Le Dashboard est actuellement <b>le seul système au monde</b> à mettre à jour automatiquement les données financières des bailleurs — améliorant considérablement la qualité des données et la pérennité du système. Léger et convivial, il offre néanmoins un large éventail de fonctionnalités pour répondre aux besoins des économies émergentes."
+        "Le Dashboard est actuellement <b>le seul système national au monde</b> à mettre à jour automatiquement et en continu les données financières des bailleurs — améliorant considérablement la qualité des données et la pérennité du système. Léger et convivial, il offre néanmoins un large éventail de fonctionnalités pour répondre aux besoins des économies émergentes."
       ]
     },
     "pillars": {
@@ -217,7 +217,7 @@
         {
           "kicker": "01 · Pour les fonctionnaires",
           "title": "Conçu avec les fonctionnaires et les décideurs.",
-          "body": "Une interface rapide et conviviale aide les fonctionnaires à maintenir les données à jour, fournissant les informations et analyses dont les hauts décideurs ont besoin pour prendre des décisions éclairées.",
+          "body": "Une interface rapide et conviviale aide les fonctionnaires et les techniciens à maintenir les données à jour, fournissant les informations et analyses dont les hauts décideurs ont besoin pour prendre des décisions éclairées.",
           "signal": "Adoption éprouvée en production",
           "image": "/usaid-implementers.png",
           "caption": "Implémenteurs · vue USAID"
@@ -242,7 +242,7 @@
           "kicker": "04 · Première mondiale IATI",
           "title": "Mise à jour automatique des données financières.",
           "body": "Pour les projets financés par les bailleurs, l'intégration IATI la plus avancée au monde permet de maintenir les données financières à jour automatiquement — améliorant nettement la qualité des données et réduisant la charge de collecte.",
-          "signal": "Unique au monde",
+          "signal": "Seul système national au monde",
           "image": "/liberia-project-dashboard.png",
           "caption": "Données bailleurs mises à jour · Libéria"
         },
@@ -255,12 +255,12 @@
       ]
     },
     "pullQuote": {
-      "text": "Le Dashboard nous a permis de faire évoluer le dialogue avec nos partenaires, des intrants vers l'alignement.",
-      "attribution": "— Henry Asor, Ministère fédéral du Budget et de la Planification économique du Nigeria"
+      "text": "Le Nigeria Development Cooperation Dashboard dépasse le cadre d’une base de données conventionnelle. Il devient un instrument pratique de planification, de coordination, de transparence et de redevabilité dans la coopération au développement.",
+      "attribution": "— S.E. Dr Doris Uzoka-Anite, Ministre d’État au Budget et à la Planification économique, République fédérale du Nigeria"
     },
     "features": {
       "kicker": "Fonctionnalités supplémentaires",
-      "headline": "Tout ce dont un ministère des finances a besoin.",
+      "headline": "Tout ce dont un ministère ou une agence a besoin.",
       "lede": "Un produit ciblé avec une surface volontairement large. Ci-dessous : les éléments qui ne font pas la une mais rendent le système utilisable au quotidien.",
       "items": [
         { "tag": "IFMIS",          "title": "Intégration IFMIS",                "body": "Importer les données depuis IFMIS et les exporter au format requis pour le processus budgétaire." },
@@ -285,5 +285,16 @@
         "Sans engagement, sans installation, sans boucle de relance commerciale"
       ]
     }
+  },
+  "untranslated": "Cette page est publiée uniquement en anglais.",
+  "footer": {
+    "trademark": "Emergentally® est une marque déposée dans l’Union européenne."
+  },
+  "jobs": {
+    "hiring": "Nous recrutons",
+    "intro": "Nous recherchons une personne basée au Kenya pour accompagner les fonctionnaires et les partenaires de développement qui utilisent nos plateformes de données, animer des formations et assurer le suivi de la qualité des données. L’offre est publiée en anglais.",
+    "roleSummary": "Data Platform Support & Engagement Specialist, Nairobi — candidatures jusqu’au {date}",
+    "viewRole": "Voir l’offre",
+    "closed": "Les candidatures pour ce poste sont closes."
   }
 }

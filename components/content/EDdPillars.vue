@@ -13,7 +13,7 @@
         v-for="(p, i) in pillars"
         :key="i"
         class="pillar"
-        :class="{ reverse: i % 2 === 1 }"
+        :class="{ reverse: i % 2 === 1, ongoing: !p.image }"
       >
         <div class="text">
           <div class="n">{{ p.kicker }}</div>
@@ -133,7 +133,36 @@ const pillars = computed(() =>
   color: #5d5d52;
   padding: 10px 4px 2px;
 }
+/* A pillar without a screenshot (continuous development) spans the page as a
+   dark band: it wraps up the pillars above rather than being another one */
+.pillar.ongoing {
+  display: block;
+  margin-top: 96px;
+  padding: 48px 56px;
+  background: #1b2a14;
+  border-radius: 2px;
+}
+.pillar.ongoing .text {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  column-gap: 56px;
+  align-items: start;
+}
+.pillar.ongoing .n { grid-column: 1; color: #b6d496; }
+.pillar.ongoing h3 { grid-column: 1; color: #fff; margin: 0; }
+.pillar.ongoing p {
+  grid-column: 2; grid-row: 1 / span 2;
+  color: #d2cfbf; max-width: 60ch; align-self: center;
+}
+.pillar.ongoing .signal {
+  grid-column: 2; justify-self: start;
+  background: transparent;
+  border: 1px solid rgba(153, 204, 102, 0.5);
+}
 @media (max-width: 992px) {
+  .pillar.ongoing { padding: 32px 24px; margin-top: 64px; }
+  .pillar.ongoing .text { display: block; }
+  .pillar.ongoing h3 { margin-bottom: 16px; }
   .section-head { grid-template-columns: 1fr; }
   .pillar { grid-template-columns: 1fr; }
   .pillar.reverse > .text { order: initial; }

@@ -182,7 +182,9 @@ const features = computed(() =>
 }
 
 @media (max-width: $bp-lg) {
-  .head { grid-template-columns: 1fr; }
+  .head { grid-template-columns: 1fr; gap: 28px; }
+  // Once stacked under the headline, the badge spans the full width
+  .badge { max-width: none; text-align: left; }
   .split { grid-template-columns: 1fr; }
 }
 </style>
