@@ -4,13 +4,16 @@
     <Head>
       <Title>{{ config.public.title }}</Title>
       <Meta name="twitter:title" :content="config.public.title" />
-      <Meta name="og:title" :content="config.public.title" />
+      <Meta property="og:title" :content="config.public.title" />
       <Meta name="twitter:image" :content="config.public.twitterImage" />
-      <Meta name="og:image" :content="config.public.twitterImage" />
+      <Meta property="og:image" :content="config.public.twitterImage" />
       <Meta name="twitter:image:alt" :content="config.public.twitterImageAlt" />
       <Meta name="twitter:card" content="summary_large_image" />
       <Meta name="description" :content="config.public.description" />
       <Meta name="twitter:description" :content="config.public.description" />
+      <Meta property="og:description" :content="config.public.description" />
+      <Meta property="og:type" content="website" />
+      <Meta property="og:site_name" :content="config.public.title" />
     </Head>
     <b-container fluid class="p-0">
       <e-hiring-notice v-if="isHome" variant="banner" />

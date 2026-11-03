@@ -1,5 +1,6 @@
 ---
 title: Data Platform Support & Engagement Specialist
+description: Emergentally is hiring a Data Platform Support & Engagement Specialist in Nairobi (full-time, KES 100,000–140,000 per month) to support the government officials and development partners who use our data platforms. Apply by Sunday 8 November 2026.
 ---
 
 # Data Platform Support & Engagement Specialist
