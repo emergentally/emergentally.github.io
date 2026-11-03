@@ -1,0 +1,18 @@
+# emergentally.com is served from the server (salt nuxtsite.sls, pm2), not
+# GitHub Pages, so there is nothing to publish here. This only checks that the
+# site still builds: `npm run build` is what the server runs, so a prerender
+# error fails here instead of at deploy time.
+name: Build check
+on: push
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install javascript dependencies
+      run: |
+        npm install
+    - name: Run build
+      run: |
+        npm run build
